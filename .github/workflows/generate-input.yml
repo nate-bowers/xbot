@@ -1,0 +1,51 @@
+name: generate-input
+
+# Runs the ingest+rank pipeline daily on GitHub's free runners (which have
+# unrestricted internet), then commits the rendered prompt to
+# data/prompt_input.txt. The Cowork task only reads that file and drafts —
+# no more sandbox-vs-network friction.
+#
+# Time: 08:00 UTC = 4 AM ET. Gives a wide buffer before the first posting
+# slot at 13:00 UTC, and a 1-5 hour window for the Cowork task to fire
+# afterwards.
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-input
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Render the day's prompt
+        run: python -m src.cli draft-prompt --top 20 > data/prompt_input.txt
+
+      - name: Commit and push
+        run: |
+          if [[ -n "$(git status --porcelain data/prompt_input.txt)" ]]; then
+            git config user.name "tweetbot"
+            git config user.email "tweetbot@users.noreply.github.com"
+            git add data/prompt_input.txt
+            git commit -m "input: refresh prompt for $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          else
+            echo "no prompt_input.txt changes to commit"
+          fi

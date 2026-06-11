@@ -1,0 +1,6 @@
+feedparser
+requests
+requests-oauthlib
+pyyaml
+rapidfuzz
+python-dotenv

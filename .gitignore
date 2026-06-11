@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.venv/
+venv/
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# state files — live in private repo nate-bowers/xbot-state, hydrated at runtime
+data/queue.json
+data/posted_log.json
+data/evergreen.json

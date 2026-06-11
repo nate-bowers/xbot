@@ -1,0 +1,123 @@
+# tweetbot config
+# All tunables for ingestion, ranking, and posting live here.
+# Anything you want to change without editing code goes in this file.
+
+ingest:
+  hackernews:
+    enabled: true
+    front_page_hits: 30
+    high_score_min_points: 150
+    high_score_hits: 30
+  arxiv:
+    enabled: true
+    categories: [cs.AI, cs.LG, cs.CL]
+    max_results: 40
+  google_news:
+    enabled: true
+    queries:
+      - "artificial intelligence"
+      - "OpenAI"
+      - "Anthropic"
+      - "Google DeepMind"
+      - "AI startup funding"
+      - "large language model"
+  rss:
+    enabled: true
+    feeds:
+      - name: techcrunch
+        url: https://techcrunch.com/feed/
+      - name: theverge
+        url: https://www.theverge.com/rss/index.xml
+      - name: arstechnica
+        url: https://feeds.arstechnica.com/arstechnica/index
+      - name: openai_blog
+        url: https://openai.com/blog/rss.xml
+      - name: deepmind_blog
+        url: https://deepmind.google/blog/rss.xml
+      # Anthropic doesn't ship a public RSS at a stable URL; pulled in via
+      # Google News query "Anthropic" instead.
+
+rank:
+  top_n: 20
+  freshness_half_life_hours: 12.0
+  weights:
+    freshness: 0.6
+    signal: 0.4
+  source_weights:
+    hackernews: 1.2
+    arxiv: 1.0
+    googlenews: 0.8
+    rss: 0.9
+  dedup_title_threshold: 0.7    # rapidfuzz token_set_ratio / 100
+
+post:
+  # cron times in UTC (GitHub Actions uses UTC, no DST shift).
+  # Edit if you want to move slots or handle ET<->EDT manually.
+  slots_utc:
+    - "0 13 * * *"  # 9:00 AM ET
+    - "0 16 * * *"  # 12:00 PM ET
+    - "0 19 * * *"  # 3:00 PM ET
+    - "0 23 * * *"  # 7:00 PM ET
+
+# Approved handles for @mentions in tweets. The model is only allowed to tag
+# people on this list — anything else and it must skip the tag. Add or remove
+# freely; the prompt re-reads this every run. Wrong handle = wrong person
+# notified, so be conservative when adding.
+approved_mentions:
+  # Big tech CEOs
+  - {handle: elonmusk, name: "Elon Musk", role: "X / Tesla / SpaceX"}
+  - {handle: sama, name: "Sam Altman", role: "OpenAI CEO"}
+  - {handle: sundarpichai, name: "Sundar Pichai", role: "Google/Alphabet CEO"}
+  - {handle: satyanadella, name: "Satya Nadella", role: "Microsoft CEO"}
+  - {handle: tim_cook, name: "Tim Cook", role: "Apple CEO"}
+  - {handle: bchesky, name: "Brian Chesky", role: "Airbnb CEO"}
+  - {handle: patrickc, name: "Patrick Collison", role: "Stripe CEO"}
+  - {handle: collision, name: "John Collison", role: "Stripe co-founder/President"}
+  - {handle: levie, name: "Aaron Levie", role: "Box CEO, prolific tweeter"}
+  - {handle: AravSrinivas, name: "Aravind Srinivas", role: "Perplexity CEO"}
+  - {handle: alexandr_wang, name: "Alexandr Wang", role: "Meta Chief AI Officer, ex-Scale AI"}
+  - {handle: miramurati, name: "Mira Murati", role: "Thinking Machines Lab CEO, ex-OpenAI CTO"}
+  - {handle: drewhouston, name: "Drew Houston", role: "Dropbox CEO"}
+  - {handle: tobi, name: "Tobi Lütke", role: "Shopify CEO"}
+  - {handle: brian_armstrong, name: "Brian Armstrong", role: "Coinbase CEO"}
+  # AI leaders & researchers
+  - {handle: karpathy, name: "Andrej Karpathy", role: "ex-OpenAI/Tesla, AI educator"}
+  - {handle: ylecun, name: "Yann LeCun", role: "Meta Chief AI Scientist"}
+  - {handle: AndrewYNg, name: "Andrew Ng", role: "DeepLearning.AI"}
+  - {handle: demishassabis, name: "Demis Hassabis", role: "Google DeepMind CEO"}
+  - {handle: gdb, name: "Greg Brockman", role: "OpenAI President"}
+  - {handle: JeffDean, name: "Jeff Dean", role: "Google DeepMind Chief Scientist"}
+  - {handle: ilyasut, name: "Ilya Sutskever", role: "Safe Superintelligence, ex-OpenAI"}
+  - {handle: DrJimFan, name: "Jim Fan", role: "NVIDIA AI"}
+  - {handle: drfeifei, name: "Fei-Fei Li", role: "World Labs CEO, Stanford"}
+  # VCs
+  - {handle: pmarca, name: "Marc Andreessen", role: "a16z co-founder"}
+  - {handle: naval, name: "Naval Ravikant", role: "AngelList founder, philosopher-VC"}
+  - {handle: paulg, name: "Paul Graham", role: "YC co-founder"}
+  - {handle: chamath, name: "Chamath Palihapitiya", role: "Social Capital, All-In pod"}
+  - {handle: bgurley, name: "Bill Gurley", role: "Benchmark"}
+  - {handle: vkhosla, name: "Vinod Khosla", role: "Khosla Ventures"}
+  - {handle: reidhoffman, name: "Reid Hoffman", role: "Greylock, LinkedIn co-founder"}
+  - {handle: rabois, name: "Keith Rabois", role: "Khosla Ventures, ex-Founders Fund"}
+  - {handle: balajis, name: "Balaji Srinivasan", role: "Network State, ex-Coinbase CTO"}
+  - {handle: Jason, name: "Jason Calacanis", role: "This Week in Startups, All-In pod"}
+  # Builder devs / commentators
+  - {handle: dhh, name: "DHH", role: "Ruby on Rails creator, 37signals"}
+  - {handle: mitchellh, name: "Mitchell Hashimoto", role: "HashiCorp co-founder"}
+  - {handle: kelseyhightower, name: "Kelsey Hightower", role: "infra/K8s commentator"}
+  - {handle: dan_abramov, name: "Dan Abramov", role: "React core team alum"}
+  - {handle: rauchg, name: "Guillermo Rauch", role: "Vercel CEO"}
+  - {handle: leerob, name: "Lee Robinson", role: "Vercel VP DX"}
+  - {handle: simonw, name: "Simon Willison", role: "Datasette/LLM CLI, AI blogger"}
+  - {handle: swyx, name: "Shawn Wang", role: "AI commentator, Latent Space pod"}
+  - {handle: GergelyOrosz, name: "Gergely Orosz", role: "Pragmatic Engineer"}
+  - {handle: levelsio, name: "Pieter Levels", role: "indie hacker / Nomad List"}
+  - {handle: dharmesh, name: "Dharmesh Shah", role: "HubSpot co-founder"}
+  # Critics / heterodox voices
+  - {handle: timnitGebru, name: "Timnit Gebru", role: "DAIR Institute, AI ethics"}
+  - {handle: emilymbender, name: "Emily Bender", role: "UW linguist, AI critic"}
+  - {handle: GaryMarcus, name: "Gary Marcus", role: "AI skeptic, deep learning critic"}
+  - {handle: anildash, name: "Anil Dash", role: "Glitch, internet culture critic"}
+  # Commentators / other big voices
+  - {handle: benthompson, name: "Ben Thompson", role: "Stratechery"}
+  - {handle: VitalikButerin, name: "Vitalik Buterin", role: "Ethereum co-founder"}

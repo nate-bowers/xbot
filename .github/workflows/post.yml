@@ -1,0 +1,95 @@
+name: post-next
+
+# Posts one queued tweet per scheduled run. Default DRY_RUN=true via the
+# repo variable — flip the var to "false" only after a full review.
+#
+# Times are UTC. Targets are anchored to Pacific Time (PDT, the summer
+# half of the year). All four slots use odd minutes so the bot isn't
+# firing on round-hour timing along with every other scheduled poster.
+# A jitter step at the start of each scheduled run sleeps a uniformly
+# random 0–900 seconds, giving each post a ±15 minute spread on top of
+# the base time. workflow_dispatch runs skip the jitter — manual = now.
+#
+# Base times (anchored to PDT, UTC-7):
+#   16:07 UTC = 9:07 AM PT
+#   20:13 UTC = 1:13 PM PT
+#   00:19 UTC = 5:19 PM PT (previous calendar day in UTC)
+#   04:23 UTC = 9:23 PM PT
+# With jitter the actual posts land in 16:07-16:22, 20:13-20:28,
+# 00:19-00:34, 04:23-04:38 UTC.
+#
+# When the US shifts back to PST in early November, each post lands
+# one hour later in your local clock. To re-anchor for PST, bump every
+# hour field below by +1 and update the comment block.
+
+on:
+  schedule:
+    - cron: "7 16 * * *"   # ~9:07 AM PT
+    - cron: "13 20 * * *"  # ~1:13 PM PT
+    - cron: "19 0 * * *"   # ~5:19 PM PT
+    - cron: "23 4 * * *"   # ~9:23 PM PT
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post-next
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Hydrate state from private xbot-state repo
+        env:
+          STATE_TOKEN: ${{ secrets.STATE_REPO_TOKEN }}
+        run: |
+          git clone --depth=1 "https://x-access-token:${STATE_TOKEN}@github.com/nate-bowers/xbot-state.git" /tmp/state
+          cp /tmp/state/queue.json /tmp/state/posted_log.json /tmp/state/evergreen.json data/
+
+      - name: Jitter (scheduled runs only)
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$(( RANDOM % 900 ))
+          echo "Sleeping ${DELAY}s before posting (±15 min jitter)."
+          sleep "$DELAY"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Post next
+        env:
+          # Repo variable: set DRY_RUN to "false" only after go-live review.
+          # Anything else (including unset) stays safe.
+          DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
+          X_AUTH_TYPE: ${{ vars.X_AUTH_TYPE || 'oauth1' }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: python -m src.cli post-next
+
+      - name: Push state changes back to xbot-state
+        run: |
+          cp data/queue.json data/posted_log.json data/evergreen.json /tmp/state/
+          cd /tmp/state
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "tweetbot"
+            git config user.email "tweetbot@users.noreply.github.com"
+            git add queue.json posted_log.json evergreen.json
+            git commit -m "post: update state $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "no state changes to push"
+          fi
