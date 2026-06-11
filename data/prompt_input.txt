@@ -109,28 +109,44 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (1.1h old) Anthropic's Model Naming, Extrapolated
-2. [hackernews] (1.3h old) Policy on the AI Exponential
-3. [hackernews] (2.1h old) Why SpaceX 2040 Revenue FCST $4.3T in highly unlikely
-4. [hackernews] (2.7h old) Claude Desktop spins up a VM without no way of stopping it
-5. [hackernews] (2.3h old) How JPL keeps the 13-year-old Curiosity rover doing science
-6. [hackernews] (2.1h old) The Dynamo and the Computer: The Modern Productivity Paradox (1989) [pdf]
-7. [hackernews] (7.1h old) Building an HTML-first site doubled our users overnight
-8. [hackernews] (2.2h old) GeoLibre 1.0
-9. [hackernews] (26.9h old) Claude Fable 5
-   also seen in: googlenews, hackernews, rss:theverge
-10. [hackernews] (2.5h old) Meta steals a tactic from Tesla and builds data centers in tents
-11. [hackernews] (2.9h old) The Case for Free Online Books (2014)
-12. [hackernews] (3.7h old) DiffusionGemma: 4x Faster Text Generation
-   also seen in: rss:deepmind_blog
-13. [hackernews] (4.7h old) US Consumer Price Index up 4.2%
-14. [hackernews] (3.7h old) Show HN: Extend UI – open-source UI kit for modern document apps
-15. [hackernews] (4.4h old) GitHub Authentication issues related to API requests
-16. [hackernews] (3.9h old) The Last Evolution, by John W Campbell Jr. (1932)
-17. [hackernews] (4.1h old) Show HN: HelixDB – A graph database built on object storage
-18. [hackernews] (5.8h old) PgDog is funded and coming to a database near you
-19. [hackernews] (4.8h old) Apache Burr: Build reliable AI agents and applications
-20. [hackernews] (4.6h old) The iPad was on Tailscale: a WebRTC debugging story
+1. [hackernews] (0.6h old) The U.S. Is Terrorizing Cuba to Make Rich Men Richer
+2. [hackernews] (0.8h old) Human migration has surged since 2000 – these maps reveal where people are going
+3. [hackernews] (5.5h old) Pokémon Go Scans Trained the Navigation Tech for Military Drones
+4. [hackernews] (23.5h old) Building an HTML-first site doubled our users overnight
+5. [hackernews] (1.6h old) HTML is a native image format, hear me out
+   also seen in: rss:openai_blog
+6. [hackernews] (3.4h old) Web Browsers on Video Game Consoles
+7. [arxiv] (18.2h old) Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models
+   summary: Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compa...
+8. [arxiv] (18.2h old) Context-Driven Incremental Compression for Multi-Turn Dialogue Generation
+   summary: Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or r...
+9. [arxiv] (18.2h old) FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning
+   summary: Contact-rich manipulation requires force sensitivity, but many robot arms lack dedicated force sensors due to their high cost. We present Neural External Torque Estimation (NEXT), a data-driven method that estimates external joint torques without needing any dedicated force sensors. NEXT trains i...
+   also seen in: rss:openai_blog
+10. [arxiv] (18.2h old) DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?
+   summary: Vision-Language Models (VLMs) are increasingly deployed as high-level planners for embodied agents, with an emerging strategy of scaling test-time compute to improve capability. However, we observe that doing so increases latency, token usage, and FLOPs while yielding uneven, often diminishing ga...
+   also seen in: rss:openai_blog
+11. [arxiv] (18.3h old) Doc-to-Atom: Learning to Compile and Compose Memory Atoms
+   summary: Long input sequences are central to document understanding and multi-step reasoning in Large Language Models, yet the quadratic cost of attention makes inference both memory-intensive and slow. Context distillation mitigates this by compressing contextual information into model parameters, and re...
+12. [arxiv] (18.3h old) Redesign Mixture-of-Experts Routers with Manifold Power Iteration
+   summary: Router is the cornerstone component to the Mixture-of-Experts models. Serving as expert proxies, the rows of the router matrix compute their similarity to the MoE inputs to determine which subset of experts is activated. Ideally, each router row is designed to encode the expert matrix into this r...
+13. [arxiv] (18.3h old) System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5
+   summary: Recently, large language models (LLMs) have achieved promising progress in the fields of classical Chinese translation and the generation of classical poetry. However, domain-specific research on precise translation and affective-semantic understanding of classical poetry remains limited. The mai...
+14. [arxiv] (18.4h old) TAHOE: Text-to-SQL with Automated Hint Optimization from Experience
+   summary: Large Language Models (LLMs) have democratized database access through Text-to-SQL, but moving from prototypes to production remains difficult. Real deployments must handle strict SQL dialects, massive schemas, and evolving user preferences, while supervised fine-tuning is costly and rigid and ag...
+15. [arxiv] (18.4h old) ATLAS: Active Theory Learning for Automated Science
+   summary: Advancing scientific understanding through mechanistic modeling requires posing the right experimental questions to yield maximally informative data. To automate this pursuit within cognitive science, we introduce ATLAS (Active Theory Learning for Automated Science), an active learning framework ...
+16. [arxiv] (18.4h old) Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs
+   summary: Modern LLM training pipelines increasingly rely on other models to generate data, filter corpora, judge outputs, and guide development decisions. These dependencies are recursive: a model may depend on an upstream artifact whose own dependencies are documented only in separate releases and artifa...
+17. [arxiv] (18.4h old) APPO: Agentic Procedural Policy Optimization
+   summary: Recent advances in agentic Reinforcement Learning (RL) have substantially improved the multi-turn tool-use capabilities of large language model agents. However, most existing methods assign credit over coarse heuristic units, such as tool-call boundaries or fixed workflows, making it difficult to...
+   also seen in: rss:openai_blog
+18. [arxiv] (18.5h old) SPEA2$^+$: Improved Density Estimation in SPEA2 with Provable Runtime Guarantees
+   summary: The Strength Pareto Evolutionary Algorithm 2 (SPEA2) is a popular and prominent evolutionary algorithm for solving multi-objective optimisation problems. Despite its popularity, theoretical analyses of SPEA2 have only appeared recently. Moreover, these analyses focus exclusively on how SPEA2 hand...
+19. [arxiv] (18.5h old) Illumination-Robust Camera-Based Heart-Rate Estimation for Physiological Sensing in Robots
+   summary: Physiological awareness is important for service, social, and assistive robots that interact with humans in everyday environments. Remote photoplethysmography (rPPG) enables non-contact heart-rate (HR) estimation from an RGB camera, making it a promising sensing modality for robot-mounted vision ...
+20. [arxiv] (18.6h old) Verifiable Environments Are LEGO Bricks: Recursive Composition for Reasoning Generalization
+   summary: Reinforcement Learning (RL) with verifiable environments has emerged as a powerful approach for enhancing the reasoning capabilities of Large Language Models (LLMs). While prior research demonstrates that scaling environment quantity improves RL performance, existing manual or individual construc...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
