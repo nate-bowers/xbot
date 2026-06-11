@@ -1,118 +1,116 @@
 # tweetbot
 
-Automated bot that posts ~4 high-signal tech/AI tweets per day. Generation is
-free (runs on a Claude Cowork scheduled task / the user's Max subscription);
-posting is a free GitHub Actions cron. The only paid call is the X write itself
-(~$0.01/post).
+> Four tweets a day. Zero hands.
 
-See `CLAUDE_HANDOFF.md` for the full architecture and design principles.
+Reads the firehose, ranks the signal, drafts on a Claude Max subscription, posts via a GitHub Actions cron. Costs about four cents a day.
 
-## Status
+## How it runs
 
-- **Phase 1 (ingestion)** — built. HN, arXiv, Google News, generic RSS.
-- **Phase 2 (rank/dedup)** — built. Cross-source dedup, freshness + signal
-  scoring, configurable source weights.
-- **Phase 3 (generation)** — built. Prompt template + JSON parser/validator.
-  Drafting runs on your Max subscription via the Cowork task — there is
-  intentionally no Anthropic API key path.
-- **Phase 4 (posting)** — built. Queue, X v2 client (OAuth 1.0a + OAuth 2.0),
-  `post-next` cron entrypoint with `DRY_RUN` switch, GitHub Actions workflow,
-  Telegram failure ping.
-- **Phase 5 (go-live)** — pending user actions: add X secrets to GH, set up the
-  Cowork task, review the first queue, flip `DRY_RUN` to `false`.
+```
+   morning                 mid-morning              afternoon and evening
 
-## Quickstart (local)
+   08:00 UTC               09 to 12 UTC             16:07, 20:13,
+   GH Actions              Cowork task              00:19, 04:23 UTC
+                                                    (next UTC day for the
+   ingest + rank           drafts 4 tweets          last two)
+   write prompt            push to xbot-state
+                                                    GH Actions
+                                                    posts one tweet per slot
+```
+
+## The split
+
+This repo holds the code. Tweet state lives in a private sibling.
+
+```
+   xbot (public)                  xbot-state (private)
+
+     src/                            queue.json
+     config.yaml                     posted_log.json
+     workflows/                      evergreen.json
+     prompt_input.txt
+
+         ──────  read  ─────▶
+         ◀───── write  ──────
+```
+
+State is hydrated at the start of every workflow run and pushed back when the run finishes. The public repo never sees a tweet body in its history.
+
+## Pipeline
+
+```
+   1. ingest    HN front page, arXiv, Google News queries, RSS feeds
+   2. rank      cross-source dedup, freshness decay, weighted signal
+   3. draft     Claude reads the prompt, writes 4 tweets as JSON
+   4. validate  count, 280 char limit, no URLs, no posted duplicates
+   5. post      4x daily, X v2 API
+   6. fallback  if queue is empty, draw a random evergreen line
+```
+
+## Quickstart
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+git clone https://github.com/nate-bowers/xbot-state.git data   # state is private
 
-# Phase 1 — verify ingestion
-python -m src.cli ingest
-
-# Phase 2 — verify ranking
-python -m src.cli rank --top 20
-
-# Phase 3 — see the rendered prompt your daily Cowork task will use
-python -m src.cli draft-prompt --top 20 > /tmp/tweetbot_prompt.txt
-cat /tmp/tweetbot_prompt.txt
-
-# Phase 3 — feed validated JSON back in (Cowork does this in production)
-python -m src.cli draft-commit /tmp/tweetbot_output.json
-
-# Phase 4 — dry-run the posting cron
-python -m src.cli queue-show
-DRY_RUN=true python -m src.cli post-next
+python -m src.cli ingest                     # try the ingestor
+python -m src.cli rank --top 20              # today's ranked candidates
+python -m src.cli draft-prompt --top 20      # the rendered Cowork prompt
+DRY_RUN=true python -m src.cli post-next     # dry-run the post path
 ```
 
-## Config
+## Configuration
 
-`config.yaml` holds every tunable: enabled sources, HN thresholds, arXiv
-categories, Google News queries, the RSS feed list, freshness half-life,
-weights, dedup threshold, and posting slots (UTC).
+Everything tunable lives in `config.yaml`: which sources are enabled, HN score thresholds, arXiv categories, Google News queries, the RSS list, freshness half-life, source weights, the dedup threshold, and the four UTC posting slots. The approved @mentions list lives there too.
 
-`config.yaml` does **not** contain secrets. Secrets only ever come from `.env`
-locally or GitHub Actions secrets in CI. See `.env.example`.
+Secrets never go in `config.yaml`. They come from `.env` locally or GitHub Actions secrets in CI. See `.env.example`.
 
 ## Layout
 
 ```
 src/
-  ingest/    Item schema + HN / arXiv / Google News / generic RSS + collector
+  ingest/    schema, HN, arXiv, Google News, RSS, collector
   rank/      dedup, score, rank
-  generate/  prompt template, parse/validate model output
-  post/      queue.json + posted_log.json, X v2 client, cron entrypoint
+  generate/  prompt template, JSON validator
+  post/      queue, evergreen, X v2 client, cron entrypoint
   notify/    Telegram pings
-  cli.py     ingest | rank | draft-prompt | draft-commit | queue-show | post-next
-data/        runtime artifacts (queue.json, posted_log.json) — committed
-.github/workflows/post.yml   the free posting cron
-COWORK_TASK_PROMPT.md        what to paste into the daily Cowork task
-config.yaml                  all tunables
-.env.example                 documents required env vars
+  cli.py     ingest, rank, draft-prompt, draft-commit, queue-show, post-next
+
+.github/workflows/
+  ci.yml                pytest on every push
+  generate-input.yml    daily ingest + rank
+  post.yml              4x daily posting cron
+
+config.yaml             every tunable, no secrets
+.env.example            required env vars
+COWORK_TASK_PROMPT.md   what to paste into the daily Cowork task
 ```
 
-## Production runtime model
+## Stack
 
-- **Daily Cowork task** runs the prompt in `COWORK_TASK_PROMPT.md`. It calls
-  `draft-prompt`, drafts 4 tweets in JSON inline, calls `draft-commit`, and
-  pushes the updated `data/queue.json`.
-- **GitHub Actions cron** (`post.yml`) fires 4× per day on UTC times that
-  approximate 9am / 12pm / 3pm / 7pm ET. Each run takes the next unposted
-  queue entry, posts (or dry-run-logs) it, marks it posted, commits
-  `data/queue.json` + `data/posted_log.json` with `[skip ci]`.
+| Layer        | Choice                       |
+|:-------------|:-----------------------------|
+| Language     | Python 3.12                  |
+| HTTP         | requests                     |
+| Dedup        | rapidfuzz                    |
+| Config       | yaml                         |
+| Test         | pytest, 36 passing           |
+| Runtime      | GitHub Actions               |
+| X auth       | OAuth 1.0a or OAuth 2.0      |
+| Drafting     | Claude Max via Cowork        |
+| Alerting     | Telegram bot (optional)      |
 
-## Secrets the user adds
+## Cost
 
-In GitHub repo settings → Secrets and variables → Actions:
+| Item              | Cost                          |
+|:------------------|:------------------------------|
+| Generation        | $0 (Claude Max)               |
+| Cron and runners  | $0 (Actions, public repo)     |
+| Per post          | about $0.01 (X)               |
+| Daily             | about $0.04                   |
+| Monthly           | about $1.20                   |
 
-**Repository variables** (not secrets):
-- `DRY_RUN` — set to `false` to go live. Default and any other value = dry-run.
-- `X_AUTH_TYPE` — `oauth1` (default) or `oauth2`.
+## Status
 
-**Secrets** (OAuth 1.0a user context, the default):
-- `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`
-
-**Secrets** (OAuth 2.0 user context, alternative):
-- `X_BEARER_TOKEN`
-
-**Secrets** (optional):
-- `TG_BOT_TOKEN`, `TG_CHAT_ID` — for failure pings and queue-ready heads-ups.
-
-Locally, the same vars go in `.env` (which is gitignored).
-
-## Go-live checklist
-
-1. Phase 1 ingest verified locally — `python -m src.cli ingest`.
-2. Phase 2 ranked output looks sane — `python -m src.cli rank`.
-3. Cowork task runs and produces a good `data/queue.json` — `queue-show`.
-4. Reviewed a full day's queue by hand: accurate, on-voice, link-free.
-5. X secrets added; one `workflow_dispatch` run shows the right "would post"
-   logs.
-6. Flip `DRY_RUN` to `false`. Watch the first live post.
-
-## What stays the user's job
-
-- X dev account, OAuth tokens, pay-per-use billing.
-- GitHub repo secrets / variables.
-- Setting up the Cowork scheduled task.
-- Reviewing the first queue and flipping `DRY_RUN`.
+Live. First scheduled post fired 2026-06-11. The cron is wired, the queue refills daily, the evergreen pool catches misses.
