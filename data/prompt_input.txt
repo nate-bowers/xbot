@@ -109,49 +109,45 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (7.1h old) AI agent bankrupted their operator while trying to scan DN42
-2. [hackernews] (1.1h old) The Future of Email
-   also seen in: googlenews, rss:deepmind_blog, rss:openai_blog
-3. [hackernews] (1.1h old) Kimi K2.7-Code: open-source coding model with better token efficiency
-   also seen in: rss:openai_blog
-4. [hackernews] (22.4h old) Show HN: Homebrew 6.0.0
-5. [hackernews] (12.8h old) If you are asking for human attention, demonstrate human effort
-6. [arxiv] (17.8h old) EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments
+1. [hackernews] (9.7h old) Statement on US government directive to suspend access to Fable 5 and Mythos 5
+   also seen in: googlenews, hackernews
+2. [hackernews] (2.8h old) Israeli firm BlackCore suspected of meddling in New York and Scotland votes
+3. [hackernews] (8.3h old) Open source AI must win
+   also seen in: googlenews
+4. [hackernews] (4.6h old) Leaving Mozilla
+5. [hackernews] (5.3h old) There is a shadow hanging over this Fable thing
+6. [hackernews] (4.8h old) Shepherd's Dog: A Game by the Most Dangerous AI Model
+7. [hackernews] (5.9h old) On CPU Physics and CPU Cycles
+8. [googlenews] (0.5h old) Real ads, fake images: AI enters Michigan governor's race - Detroit Free Press
+   summary: <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTkU2RkZFWWVTYW9VNTgtQVAwUEIxdTNWYlE3OGU1R0g3RkhkU0tveDFXalpmYXVYYTNITW85RlhBQWVwRFY1LVg4UXdKUDNUakJjR3p0MjNJYXd0RE11MzVQNG9jNXhuU0ZEQkxhM3ItNEI3X2h4WDBYd29oMUJUZmw1RUt3VEFsb1VCVEdPZXNRSzRGb0JlWGxJd0J0S2J0WWN2UEVTQld3VlBYZ0xyMG5KMUEwb0d...
+9. [googlenews] (0.5h old) US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos - BleepingComputer
+   summary: <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPTng4d1ZrYm9mQmYtZURHRm1GY2JKSDBCYUpNWGtLeXhEMDNoSldXallNNzI0SXJtaUFYYlVpYUpMVkxIOGx2WkhyMWJpY2RBcDZYQmNfT3B6MzNmSkZvLUZVaXphYU9MOEMtazFWa0tsQlQ0MUF2R3gyYlM5Um92Yk1jZ3ZnMVlRLVNRNlVGUHdscWwzV1VoYTByNmJOZlZsRV9mQURJLXprQzZKNmF3ZEhEdng3cmP...
+10. [googlenews] (0.7h old) US ban on Anthropic's Fable 5 and Mythos 5 has 'Amazon link': Researchers from Amazon used a series of pr - The Times of India
+   summary: <a href="https://news.google.com/rss/articles/CBMingJBVV95cUxQeUFvNGlTNnQ2Rlg4bHJZODZBLXg5Wkozd2RFTHdBZ2FONGdUbFVWWW8wcXdma2gtWGd6UmNIWDE2TXlFUGpnZ3BMeE94Z3NQREdZLWt2YVU3S0ZxYnpvTmttQnYyZEU4WmZBdV8tc2pvYm1tTlVLNlRUYXlNX19BNnZILVI2MXo2TFRfM0pMcWhBWkVSdDRBeTdDTjBJN0hCXzQ3eDFqQlZ1YUpVY2wxLVV2R0szOTV...
+11. [googlenews] (0.8h old) Why Anthropic is halting access to its Fable 5 and Mythos 5 AI models - Euronews.com
+   summary: <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXlDaXprT2RUNUZlUU1NRVM3SjdYTC1xa2NGV3NRWWVBTERmOXJzSUdTQ1VZZ1hUenZvWjh1S1B0eDNKRUUxZWJTOGw0RHh6eklfQW1sSVg4bHZ6T1NBUk84R2hvSlRrdWhmUm4xdF9DbXR0Q1pNRFctMVdleG5JZlEzZmtNWnBHZTBybm1TdW15TlJLTm5GdmpPRXhWb28tSG13TjhjY20?oc=5" target="_blan...
+12. [googlenews] (0.8h old) Anthropic cuts top-tier AI access after US foreigner ban - dw.com
+   summary: <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOWWVnN0FCeWUwZThwV2pob3RhOWZscXhGNUdGRzRDT21EQkhiNDNvZkVCc01rNWRsM0FyX09PcnRtN3ZLbjU1WVNObUs5RUs3bmw4dXQ5Ukw0eXB0cHVndGQxRU9XT2RiS1puWF9kbUpzNnBZRElST2ZZUWZHN0JidVhGVldlWVVNZ254OVJpZ1ZiMWPSAZMBQVVfeXFMTU5fdTdMSWEwWml1TGRXTzdxOXdDVGpsTnV...
+   also seen in: googlenews
+13. [arxiv] (40.6h old) EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments
    summary: Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing en...
-7. [arxiv] (17.8h old) Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning
+14. [arxiv] (40.6h old) Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning
    summary: Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely differen...
    also seen in: rss:openai_blog
-8. [arxiv] (17.8h old) Mana: Dexterous Manipulation of Articulated Tools
+15. [arxiv] (40.6h old) Mana: Dexterous Manipulation of Articulated Tools
    summary: Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexi...
-9. [arxiv] (17.8h old) SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning
+16. [arxiv] (40.6h old) SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning
    summary: Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attempt to address this by augmenting VLMs with specialist perception modules, yet their effectiveness ...
-10. [arxiv] (17.8h old) Understanding Truncated Positional Encodings for Graph Neural Networks
+17. [arxiv] (40.6h old) Understanding Truncated Positional Encodings for Graph Neural Networks
    summary: Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically equival...
    also seen in: rss:openai_blog
-11. [arxiv] (17.8h old) Automated reproducibility assessments in the social and behavioral sciences using large language models
+18. [arxiv] (40.6h old) Automated reproducibility assessments in the social and behavioral sciences using large language models
    summary: Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. However, such approaches are resource-intensive and difficult to scale. Here, we show that large langu...
    also seen in: googlenews
-12. [arxiv] (17.8h old) Agents-K1: Towards Agent-native Knowledge Orchestration
+19. [arxiv] (40.6h old) Agents-K1: Towards Agent-native Knowledge Orchestration
    summary: Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions, and flat \texttt{cites} edges, omitting key entities, claims, evidence, mechanisms, and method l...
-13. [arxiv] (17.8h old) Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution
+20. [arxiv] (40.6h old) Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution
    summary: With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a mod...
-14. [arxiv] (17.8h old) HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents
-   summary: Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visib...
-15. [arxiv] (17.8h old) EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery
-   summary: LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities c...
-16. [arxiv] (17.9h old) Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization
-   summary: This paper examines three recent frameworks for understanding the cognitive and epistemic consequences of artificial intelligence: Tri-System Theory, Thinkframes, and System 0. It argues that while the first two capture important dimensions of AI's influence on individual reasoning and collective...
-17. [arxiv] (17.9h old) Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation
-   summary: On-policy distillation (\textsc{OPD}) has recently become a prominent post-training recipe as it combines two desirable ingredients: on-policy student trajectories and dense teacher supervision, yet how this hybrid changes a model's parameters remains unclear. Across several language and vision-l...
-   also seen in: rss:openai_blog
-18. [arxiv] (17.9h old) Operadic consistency: a label-free signal for compositional reasoning failures in LLMs
-   summary: Detecting LLM reasoning failures at inference time without ground-truth labels has motivated a wide range of confidence baselines, including self-consistency, semantic entropy, and P(True), built on within-question sampling and self-evaluation. Operad theory, the formalism for systems built by it...
-   also seen in: arxiv, rss:openai_blog
-19. [arxiv] (18.0h old) SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation
-   summary: We introduce SkMTEB, the first comprehensive MTEB-style text embedding benchmark for Slovak, a low-resource West Slavic language, comprising 31 datasets across 7 task types -- nearly 4$\times$ the depth of existing multilingual benchmark coverage for Slovak. Our evaluation of 31 embedding models ...
-   also seen in: rss:openai_blog
-20. [arxiv] (18.0h old) Recursive Agent Harnesses
-   summary: Recursive language models (RLMs) showed that recursion over model calls is an effective strategy for long-context reasoning, and production coding agents have begun to write code that spawns subagents at scale, most recently in Anthropic's dynamic workflows. We name and study the pattern between ...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
