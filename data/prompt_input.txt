@@ -109,45 +109,41 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (9.7h old) Statement on US government directive to suspend access to Fable 5 and Mythos 5
+1. [hackernews] (34.0h old) Statement on US government directive to suspend access to Fable 5 and Mythos 5
    also seen in: googlenews, hackernews
-2. [hackernews] (2.8h old) Israeli firm BlackCore suspected of meddling in New York and Scotland votes
-3. [hackernews] (8.3h old) Open source AI must win
+2. [hackernews] (4.7h old) Don't trust large context windows
    also seen in: googlenews
-4. [hackernews] (4.6h old) Leaving Mozilla
-5. [hackernews] (5.3h old) There is a shadow hanging over this Fable thing
-6. [hackernews] (4.8h old) Shepherd's Dog: A Game by the Most Dangerous AI Model
-7. [hackernews] (5.9h old) On CPU Physics and CPU Cycles
-8. [googlenews] (0.5h old) Real ads, fake images: AI enters Michigan governor's race - Detroit Free Press
-   summary: <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTkU2RkZFWWVTYW9VNTgtQVAwUEIxdTNWYlE3OGU1R0g3RkhkU0tveDFXalpmYXVYYTNITW85RlhBQWVwRFY1LVg4UXdKUDNUakJjR3p0MjNJYXd0RE11MzVQNG9jNXhuU0ZEQkxhM3ItNEI3X2h4WDBYd29oMUJUZmw1RUt3VEFsb1VCVEdPZXNRSzRGb0JlWGxJd0J0S2J0WWN2UEVTQld3VlBYZ0xyMG5KMUEwb0d...
-9. [googlenews] (0.5h old) US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos - BleepingComputer
-   summary: <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPTng4d1ZrYm9mQmYtZURHRm1GY2JKSDBCYUpNWGtLeXhEMDNoSldXallNNzI0SXJtaUFYYlVpYUpMVkxIOGx2WkhyMWJpY2RBcDZYQmNfT3B6MzNmSkZvLUZVaXphYU9MOEMtazFWa0tsQlQ0MUF2R3gyYlM5Um92Yk1jZ3ZnMVlRLVNRNlVGUHdscWwzV1VoYTByNmJOZlZsRV9mQURJLXprQzZKNmF3ZEhEdng3cmP...
-10. [googlenews] (0.7h old) US ban on Anthropic's Fable 5 and Mythos 5 has 'Amazon link': Researchers from Amazon used a series of pr - The Times of India
-   summary: <a href="https://news.google.com/rss/articles/CBMingJBVV95cUxQeUFvNGlTNnQ2Rlg4bHJZODZBLXg5Wkozd2RFTHdBZ2FONGdUbFVWWW8wcXdma2gtWGd6UmNIWDE2TXlFUGpnZ3BMeE94Z3NQREdZLWt2YVU3S0ZxYnpvTmttQnYyZEU4WmZBdV8tc2pvYm1tTlVLNlRUYXlNX19BNnZILVI2MXo2TFRfM0pMcWhBWkVSdDRBeTdDTjBJN0hCXzQ3eDFqQlZ1YUpVY2wxLVV2R0szOTV...
-11. [googlenews] (0.8h old) Why Anthropic is halting access to its Fable 5 and Mythos 5 AI models - Euronews.com
-   summary: <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXlDaXprT2RUNUZlUU1NRVM3SjdYTC1xa2NGV3NRWWVBTERmOXJzSUdTQ1VZZ1hUenZvWjh1S1B0eDNKRUUxZWJTOGw0RHh6eklfQW1sSVg4bHZ6T1NBUk84R2hvSlRrdWhmUm4xdF9DbXR0Q1pNRFctMVdleG5JZlEzZmtNWnBHZTBybm1TdW15TlJLTm5GdmpPRXhWb28tSG13TjhjY20?oc=5" target="_blan...
-12. [googlenews] (0.8h old) Anthropic cuts top-tier AI access after US foreigner ban - dw.com
-   summary: <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOWWVnN0FCeWUwZThwV2pob3RhOWZscXhGNUdGRzRDT21EQkhiNDNvZkVCc01rNWRsM0FyX09PcnRtN3ZLbjU1WVNObUs5RUs3bmw4dXQ5Ukw0eXB0cHVndGQxRU9XT2RiS1puWF9kbUpzNnBZRElST2ZZUWZHN0JidVhGVldlWVVNZ254OVJpZ1ZiMWPSAZMBQVVfeXFMTU5fdTdMSWEwWml1TGRXTzdxOXdDVGpsTnV...
-   also seen in: googlenews
-13. [arxiv] (40.6h old) EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments
-   summary: Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing en...
-14. [arxiv] (40.6h old) Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning
-   summary: Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely differen...
+3. [hackernews] (5.5h old) Tribblix: The retro Illumos distribution
    also seen in: rss:openai_blog
-15. [arxiv] (40.6h old) Mana: Dexterous Manipulation of Articulated Tools
-   summary: Articulated tool manipulation remains a major challenge in dexterous robotics due to the need to coordinate internal degrees of freedom and contact-rich interactions. While prior work has largely focused on rigid objects, articulated tool use remains underexplored because of its physical complexi...
-16. [arxiv] (40.6h old) SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning
-   summary: Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attempt to address this by augmenting VLMs with specialist perception modules, yet their effectiveness ...
-17. [arxiv] (40.6h old) Understanding Truncated Positional Encodings for Graph Neural Networks
-   summary: Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically equival...
-   also seen in: rss:openai_blog
-18. [arxiv] (40.6h old) Automated reproducibility assessments in the social and behavioral sciences using large language models
-   summary: Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. However, such approaches are resource-intensive and difficult to scale. Here, we show that large langu...
+4. [hackernews] (6.0h old) Phoenix LiveView 1.2
+5. [hackernews] (6.5h old) Pac-Man, but you're the ghost
+6. [hackernews] (7.1h old) Free SQL→ER diagram tool, runs in the browser, nothing uploaded
+7. [hackernews] (6.7h old) Software Architecture Guide (2019)
+8. [googlenews] (0.2h old) OpenAI Just Took the First Step Toward Its IPO. Here's How to Invest in the Stock Now. - The Motley Fool
+   summary: <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOU2ZLa0xDMzBJbEdGdXlIT1RIdklQWnRpRjdfZVhJYld0bkh2MHFyRXBnWlRjN1hrTHR4Z0FVUERxM1BRWEdtdGR5OWd1elJ5UWlDRlRiUGxxVDBZV3h3UndZNmFldVBZaDVKMkZMQ2U5V1VqRGVnQmVLdE9iWllzbDg0X2ZLNVNMX2ttdTRjYnpaZF9NQ0I1Tg?oc=5" target="_blank">OpenAI Just Took t...
+9. [hackernews] (7.9h old) Making Claude a Chemist
+10. [hackernews] (8.1h old) Weave: Merging based on language structure and not lines
+11. [hackernews] (8.3h old) Building a serial and VGA "everything console"
+12. [hackernews] (10.0h old) Honda Civics and the Evil Valet
+13. [googlenews] (1.5h old) Trump Admin Unlikely To Expand Anthropic AI Export Curbs To OpenAI, Other Rivals: Report - Benzinga
+   summary: <a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPS19ZQ3ZpbF9VcDcwZlJLeGh3X3ltc3A3cERCNDRZLTZ6MVRkZHp4Q3lLZGVyYUdCZVpaTWIzb0tRRFVEeDZ0MFZpRy1CdW13RHhDWXBDNEFIU05jTEk5UE5tR3I1aDBFYVFNS2ZFcWJoM1FJX0hWdEhmVHVHeTZMT0dMTjZRVk1TbUZVSWxRZ3ZsNmVCVk5aUmdITzEtV1Frejd1YTJydXJVX2xMS1J0VXdYU2xKM2t...
    also seen in: googlenews
-19. [arxiv] (40.6h old) Agents-K1: Towards Agent-native Knowledge Orchestration
-   summary: Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions, and flat \texttt{cites} edges, omitting key entities, claims, evidence, mechanisms, and method l...
-20. [arxiv] (40.6h old) Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution
-   summary: With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a mod...
+14. [googlenews] (1.7h old) Trump tried to block state AI regulations, but some states are forging ahead - AP News
+   summary: <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGVrczZyYVlrd1VhQWQ5X29Td20wakZoVWRHeXZZUWY5MlBpOEtzZ0ozaHlRcnZOTzBoT2Z4WUpiTF9GZHBqcDJfY1B4b3VmU3J1WlNJbWdoSDk4emNjQ19lcUszeVhIM1Noam14a0RJeEthVzV4NjQ4TDlUa2NHRWtNaERwM1FPcjBrWVBpYzJXR3oycERUSklVWmJrb3UwZlVv?oc=5" target="_blank">Trum...
+   also seen in: googlenews
+15. [googlenews] (1.9h old) Nature of Things: Artificial Intelligence sparks controversy in commencement speeches - Daily Republic
+   summary: <a href="https://news.google.com/rss/articles/CBMiggJBVV95cUxNUGdpS25GT0g4NW0wU3JEX2ktTWdQclotT3lYSDY1QWVmZkV3SWV3TVlrQjM0VWhaQVQxTmY5Vi14SHhJNmY2QWFnVUdMdHd1TUdIVHFwWEtmOXlxZnF6c0l6S3ZFZjJyUVl1VkVQbk9JYlRPWTJkdlNlQ0QxSkF3Zzlzc0ZJN2xMZHVnMF9ZYnNManRKaktwVXRTb3RvcUVOdFlsVndxN1ZSSUxUejZmeWZQRU93S3N...
+16. [googlenews] (1.9h old) Claude Fable 5 vs GPT 5.5: Is this why the Trump admin banned one and not the other? - Mashable
+   summary: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5ENkVmNkswcWNpaWJhSGFucVpaM19FOU9pZHd3SF9EYVlLTmxRRUhvcTUtWVNFcmNHdTRickxvaFE1RkpNZzdZRlBmVDB1NVJ4QWcxVEJaZUNuWGRnQVlLcjRyTll4UU9CMEE1VHBnVVVZZVRzOUxj?oc=5" target="_blank">Claude Fable 5 vs GPT 5.5: Is this why the Trump admin banned on...
+   also seen in: googlenews, rss:openai_blog
+17. [googlenews] (2.0h old) Will Anthropic Offer Claude Fable 5 Refunds? - Forbes
+   summary: <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQRnMyUkV1RkdCaUM1MUhOWUd1aWNCdkNVOVpUNHNaM2xsRy12b1hsR3YwUktPb1FKRzlFWlhoTnM1M0xYWGtFLXVRQ3Vib2dGa3dhX3ZOcnpVNG9FMVZ0bC0waUlQSjN4TXRkdzgyMFh4a1lQOW0xenJDZnZLMGxpeVdNb3RkZEx2SFh3cmVrbTJVYUdsQm9Fc0g4cE80Zw?oc=5" target="_blank">Will Anthr...
+18. [googlenews] (2.1h old) The need for large-scale financing to expand the artificial intelligence (AI) business played a deci.. - 매일경제
+   summary: <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFAyQXhhakNHNzR4cEhGRXFSMnZHSENlMXNFdWROM2NIMEhkVDAzRXY3a0tFV1BkcENXQmN3LXVJNTVXRWNIYmhxZXRQTQ?oc=5" target="_blank">The need for large-scale financing to expand the artificial intelligence (AI) business played a deci..</a>&nbsp;&nbsp;<fon...
+19. [googlenews] (2.2h old) Large artificial intelligence (AI) stocks are fluctuating due to increased volatility in the U.S. an.. - 매일경제
+   summary: <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIVlgtYWFYcmo2TmZYWnZYdkhlMG8xMUZhR2tlTFVBOV9fejFERjdZcnBwMFpFNVlBZWcyQ0tpZ01YMUhCNVRfT3JHMG1vSVE?oc=5" target="_blank">Large artificial intelligence (AI) stocks are fluctuating due to increased volatility in the U.S. an..</a>&nbsp;&nbsp...
+20. [googlenews] (2.3h old) Ban on Fable 5: On Friday Anthropic received a call from the government instructing them to ... - The Times of India
+   summary: <a href="https://news.google.com/rss/articles/CBMihAJBVV95cUxQSHZ1RS14S3E0NWUxTW9WbU5NSU9lbUFnR0R2MzVnR1AybEF0LUZ5eWxEOFRBOWFHdFQ4blJ4N1ZYTHpVcWpGUEJRWm1vV0lJRmpXWnhNdFNGbzJIS1k1a1JtOElIcTI2RllGSWJKSE1ab0lwQmhLNkk4VkJQODhWOGRFd3JsUktsSFJvb3kwLVlXVXR3TFFtdTNrNDlZejg3WktXWTJsRGhHdHhOak5rMG9HQlVLdzd...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
