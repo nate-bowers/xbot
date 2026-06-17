@@ -109,44 +109,43 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (17.0h old) A backdoor in a LinkedIn job offer
-2. [hackernews] (1.5h old) Mechanical Watch
-   also seen in: rss:theverge
-3. [hackernews] (2.2h old) SpaceX to buy Cursor AI coding agent operator Anysphere for $60B
-   also seen in: googlenews, hackernews
-4. [hackernews] (21.8h old) Iroh 1.0
-5. [hackernews] (3.5h old) Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak
-6. [hackernews] (3.7h old) Commodore Releases Flip Phone
-   also seen in: rss:arstechnica
-7. [hackernews] (3.2h old) Correlated randomness in Slay the Spire 2
-8. [hackernews] (8.0h old) John Carmack on Fabrice Bellard
-9. [hackernews] (3.5h old) Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org
-10. [hackernews] (22.2h old) Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?
-   also seen in: hackernews, rss:openai_blog
-11. [arxiv] (19.0h old) The Value Axis: Language Models Encode Whether They're on the Right Track
-   summary: We investigate whether language models internally track the value of their current trajectory, defined as the likelihood that their ongoing strategy will achieve their goals. Using synthetic, in-context reinforcement learning data, we construct a "value" axis for Qwen3-8B. We find that activation...
-12. [arxiv] (19.0h old) Context-Aware RL for Agentic and Multimodal LLMs
-   summary: Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle detail in an image. We propose ContextRL, a context-aware reinforcement learning (RL) method that ...
-13. [arxiv] (19.0h old) Exact Posterior Score Estimation for Solving Linear Inverse Problems
-   summary: Diffusion and flow-based models learn powerful data priors by training a denoiser to reverse Gaussian corruption. To use this prior to solve a linear inverse problem, one needs to sample from the posterior, but the score that the prior provides is the unconditional score, not the posterior score....
+1. [hackernews] (21.7h old) Running local models is good now
+2. [hackernews] (3.2h old) GLM-5.2 is the new leading open weights model on Artificial Analysis
+3. [hackernews] (1.5h old) RFC 10008: The new HTTP Query Method
+4. [hackernews] (2.4h old) U.S. Science Is in Chaos
+5. [hackernews] (2.9h old) Show HN: High-Res Neural Cellular Automata
+6. [hackernews] (4.5h old) Hacker News but for Independent Blogs
+7. [arxiv] (18.4h old) Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement
+   summary: Robots deployed in the real world should learn from their experience and improve over time. This requires a mechanism of practicing and learning from feedback. In this paper, we propose VERITAS, a generator-verifier framework for generalist robot policies for inference-time policy steering and se...
+8. [arxiv] (18.4h old) Variable-Width Transformers
+   summary: Scaling model size, specifically depth and width, has driven significant progress in transformer-based language models. However, most architectures maintain a constant width across all layers, allocating a fixed parameter and computation budget evenly despite different layers potentially playing ...
+9. [arxiv] (18.4h old) ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues
+   summary: Reproducing research results from papers and released code is central to scientific progress. Existing works have introduced benchmarks to evaluate whether LLM agents can assist with reproducibility, but they are difficult to scale due to their reliance on substantial manual effort for data curat...
+10. [arxiv] (18.4h old) Sign-Rank, Index, and List Replicability: Connections and Separations
+   summary: In learning theory, the sign rank of a binary concept class captures the smallest dimension in which it can be represented by points and halfspaces. Despite tremendous interest, lower bounds on sign rank are notoriously difficult to come by. Two recent approaches to the problem establish lower bo...
+11. [arxiv] (18.4h old) EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation
+   summary: Zero-Shot Object-Goal Navigation (ZS-OGN) requires embodied agents to explore and locate target objects without any prior training. To this end, recent methods leverage foundation models. But they typically rely on static priors and lack adaptation, which leads to repeated errors and costly trial...
+12. [arxiv] (18.4h old) Adaptive Volumetric Mechanical Property Fields Invariant to Resolution
+   summary: Accurate mechanical properties (or materials) Young's modulus ($E$), Poisson's ratio ($ν$) and density ($ρ$) are essential for reliable physics simulation of digital worlds, but most 3D assets lack this information. We propose AdaVoMP, a method for predicting accurate dense spatially-varying ($E$...
+13. [arxiv] (18.5h old) Learning Red Agent Policy from Observations for Neurosymbolic Autonomous Cyber Agents
+   summary: With sophisticated cyber-attacks becoming increasingly prevalent, modern networks require intelligent autonomous cyber-defense agents trained via Reinforcement Learning (RL). These agents employ neurosymbolic approaches such as behavior trees with learning-enabled components (LECs) to learn, reas...
    also seen in: rss:openai_blog
-14. [arxiv] (19.0h old) Geometric Action Model for Robot Policy Learning
-   summary: Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale fou...
+14. [arxiv] (18.5h old) Darshana Graph: A Parallel Commentary Corpus for Comparative Indian Philosophy, with Stylometric and Exploratory Graph Analyses
+   summary: We introduce Darshana Graph, a corpus of over 125,000 text records spanning classical Hindu, Buddhist, and Jain philosophical traditions, drawn from public-domain and openly licensed translations of sources including the Bhagavad Gita, Brahma Sutras, principal Upanishads, the Pali Canon, and core...
+15. [arxiv] (18.6h old) Finite-Time Queue Peak Laws in Stochastic Networks: Logarithmic Scaling After Geometric Thresholds
+   summary: We study finite-horizon queue peaks in generalized switches, a standard stochastic-network model in which many queues share constrained service resources. Arrivals may be dependent, time-varying, and adapted to the past; the standing load condition is uniform interior slack, meaning the condition...
+16. [arxiv] (18.6h old) Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients
+   summary: Knowledge distillation transfers a teacher's competence to a small student but is brittle in the small-student regime: forcing the student to imitate logits from a much larger teacher concentrates it on the teacher's sharpest modes, hurting generalization on benchmark families beyond the training...
    also seen in: rss:openai_blog
-15. [arxiv] (19.0h old) Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes
-   summary: When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage ...
-16. [arxiv] (19.0h old) Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio
-   summary: Meta-analysis is a demanding form of evidence synthesis that combines literature retrieval, PI/ECO-guided study selection, and statistical aggregation. Its structured, verifiable workflow makes it an ideal substrate for evaluating systematic scientific reasoning, yet existing benchmarks lack grou...
-17. [arxiv] (19.1h old) The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers
-   summary: Oppenheim and Lim (1981) showed that natural images stay recognizable when reconstructed from their Fourier phase alone, while the magnitude carries little of their identity. We ask whether trained image classifiers reproduce this asymmetry inside their hidden layers, and we test it causally: giv...
-   also seen in: rss:openai_blog
-18. [arxiv] (19.1h old) Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning
-   summary: Prior research suggests that differential privacy (DP) inherently enhances the robustness of federated learning (FL) against backdoor attacks. In this paper, we challenge this assumption. Through an empirical analysis of two baseline attack strategies, we uncover a fundamental tension in DP-FL: w...
-19. [arxiv] (19.1h old) KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing
-   summary: Post-hoc context erasing over the KV cache is challenging because a local edit has a global consequence: once a span has been processed, its influence propagates into the cached states of all subsequent tokens. This issue arises naturally in long-context LLM applications, where stale retrieved fa...
-20. [arxiv] (19.1h old) DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents
-   summary: Deep research agents synthesize long-form reports by searching and reasoning over retrieved evidence. Reinforcement learning with rubric-based rewards improves these agents by optimizing them against checkable criteria that translate report quality into reward signals, but its efficiency depends ...
-   also seen in: rss:openai_blog
+17. [arxiv] (18.7h old) Rethinking Dataset Distillation for Classification: Do Distilled Sets Outperform Coresets?
+   summary: Dataset distillation (DD) has emerged as a prominent approach in data centric machine learning, aiming to synthesize compact training sets for efficient training by compressing the information in large datasets into a small number of synthetic samples. However, DD methods are often evaluated unde...
+18. [arxiv] (18.7h old) Looped World Models
+   summary: Current world models face a fundamental tension: faithful long-horizon simulation demands deep computation, but deeper models are expensive to deploy and prone to compounding errors. We resolve this by introducing Looped World Models (LoopWM), which are the first looped architectures for world mo...
+   also seen in: googlenews, rss:deepmind_blog, rss:openai_blog
+19. [arxiv] (18.7h old) Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers
+   summary: Looped architectures provide an inductive bias toward learning step-by-step procedures for tasks that require compositional reasoning. The number of effective layers reached by looping determines the quality of the solution these models find. Like deep architectures, looped architectures are pron...
+20. [arxiv] (18.8h old) Analyzing and Encoding the Al-Mawrid Arabic-English Dictionary with the ISO Language Markup Framework and TEI Lex-0
+   summary: This paper presents a robust methodology for the systematic digitization and encoding of the Al-Mawrid Arabic-English dictionary, transforming it from a legacy print resource into a standardized computational lexicon. Addressing a significant gap in Arabic lexical infrastructure, the study adopts...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
