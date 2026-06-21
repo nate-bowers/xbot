@@ -109,34 +109,29 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (18.1h old) Hyundai buys Boston Dynamics
-2. [hackernews] (18.5h old) Norway imposes near ban on AI in elementary school
-   also seen in: googlenews
-3. [hackernews] (5.0h old) I Stored a Website in a Favicon
-4. [hackernews] (7.0h old) Where to Find the Colors Your Screen Can't Show You
-5. [hackernews] (6.5h old) Satellite reveals immense scale of GPS signal tampering
-6. [hackernews] (18.1h old) Google workspace threatening to block Firefox access
+1. [hackernews] (3.0h old) Google Hits 50% IPv6
+2. [hackernews] (1.4h old) CTOs Agree: Cognitive Debt Is the New Technical Debt
+3. [hackernews] (7.3h old) Your brain was never designed for this much bad news
+4. [hackernews] (24.5h old) CSSQuake
+5. [hackernews] (3.3h old) A 3D voxel game engine written in APL
+6. [hackernews] (9.7h old) Developers don't understand CORS (2019)
+7. [hackernews] (17.2h old) The Wholesale Plagiarism of Obscure Sorrows
+8. [hackernews] (6.9h old) Building reliable agentic AI systems
+9. [hackernews] (12.4h old) Renting a sewing machine from the library
+10. [hackernews] (10.4h old) When I reject AI code even if it works
+11. [hackernews] (4.9h old) Windows UI evolution: Clicking an unassociated file
+12. [hackernews] (13.0h old) Slow breathing modulates brain function and risk behavior
+13. [hackernews] (31.7h old) Where to Find the Colors Your Screen Can't Show You
+14. [hackernews] (12.7h old) Pre-2022 Books
+15. [rss:theverge] (0.3h old) Sony’s Xperia 1 VIII is still a phone for the fans
+   summary: The Xperia 1 VIII marks an attempt at a step change for Sony's flagship phone line. Not only has it had an aesthetic overhaul, but Sony has also revamped the camera system, dropping the continuous optical zoom telephoto that's defined the last four generations of Xperia phone. It's not all differ...
+16. [hackernews] (12.5h old) Turns Out, There Is a Cabal of Elite Crazies Trying to Control the World
+17. [hackernews] (12.2h old) Epoll vs. io_uring in Linux
+18. [hackernews] (14.3h old) Linux eliminates the strncpy API after six years of work, 360 patches
    also seen in: rss:openai_blog
-7. [hackernews] (15.0h old) Bobby Prince, composer for Doom, Wolfenstein 3D, and Duke Nukem 3D, has died
-8. [hackernews] (44.3h old) Swiss parliament lifts ban on new nuclear power plants
-9. [hackernews] (19.4h old) There are no instances in ATProto
-10. [hackernews] (18.5h old) AI Engineer Claims to Have Cracked Linear A
-11. [hackernews] (10.4h old) Hey, n00b, we didn't hire you to complete tasks
-12. [hackernews] (11.8h old) Americans express unease over SpaceX's influence on retirement savings
-13. [hackernews] (28.0h old) Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28
-14. [hackernews] (17.0h old) Court Records Should Be Free
-15. [googlenews] (0.6h old) Attorney who used AI to cite fake cases sanctioned by Michigan court - Detroit Free Press
-   summary: <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaHRpSlZQYXpfTm1sYmswd2k2YzVPdUtySTZwby03ZERUYkN0Q2M2WDdWaFZQS3h1UlJjTl9NdWNoWWFYSkpHa0JPc0ZxdFU4Y2pCaUpOLVVGbllva2dRQXZ6UkhldGVoWmN1b1NfU19DWXpvZEY0MmhRNjI0RFhUb0pBWTB2Qm1fNjJlbmFsTVBKUTFrbGV6Ums2VUhPVjFxcUQxT0dSRzNBdnpxck9TdFo3LVBnZDQ...
-16. [googlenews] (0.6h old) As the US and China surge ahead, is Europe sleepwalking into AI disaster? - The Guardian
-   summary: <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNR01YUUNDaXhKRlNQUXE2eHA4bGFsMlZWT1BVT0dGUXN0dG5ON0Jmb0I1X3BmdUNPLTE5X3U3dFgxNzI0SjJsZmxlYm4zOEw0R3lOUks2N29FUzlBZmUtVGdEQS1idkZCRTJSVUowX2FadDRpcjFad3J5bkVrUV9FY1BVVS14QWJ2bUtzQWhfX0dnSXJVNGc?oc=5" target="_blank">As the US and China s...
-17. [googlenews] (0.8h old) This Artificial Intelligence (AI) Stock Is Up 4,800% in the Past Year. Wall Street Says This Will Happen Next. - The Motley Fool
-   summary: <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0loMERuaDZjZmxFd2RQSW5ZZmUtaXB5bWRFZFc5aDd5TlpfTEMtbDdUeXkwMUV6ZjFzbFNCMzd3dHhWWkpTNkRicjNxcHE3ellwM0ZSNnQ5NEFGSkFBNDhuZzJZd2o2dDNzYmVfYjZ4ZVdYQUsxR0JwTmxzUjZOZWl5NXFkaTZjNHZMS2ljcw?oc=5" target="_blank">This Artificial Intelligence (...
-18. [arxiv] (40.6h old) How Transparent is DiffusionGemma?
-   summary: LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space; does this make its reasoning les...
-19. [arxiv] (40.6h old) UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning
-   summary: Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowled...
-20. [arxiv] (40.6h old) Optimal Deterministic Multicalibration and Omniprediction
-   summary: A model is multicalibrated on a collection of group weights $G$ if it is calibrated -- i.e. unbiased even conditional on its prediction -- not just overall, but also after reweighting contexts by each $g \in G$. It is a useful property for many downstream applications and is a basic desideratum o...
+19. [hackernews] (18.3h old) SMPTE Makes Its Standards Freely Accessible
+20. [rss:arstechnica] (1.3h old) Review: Widow's Bay is a boldly original take on comedic horror
+   summary: An eminently binge-able series that honors classic horror tropes while reinventing them in surprising ways
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
