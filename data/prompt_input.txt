@@ -109,29 +109,32 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (3.0h old) Google Hits 50% IPv6
-2. [hackernews] (1.4h old) CTOs Agree: Cognitive Debt Is the New Technical Debt
-3. [hackernews] (7.3h old) Your brain was never designed for this much bad news
-4. [hackernews] (24.5h old) CSSQuake
-5. [hackernews] (3.3h old) A 3D voxel game engine written in APL
-6. [hackernews] (9.7h old) Developers don't understand CORS (2019)
-7. [hackernews] (17.2h old) The Wholesale Plagiarism of Obscure Sorrows
-8. [hackernews] (6.9h old) Building reliable agentic AI systems
-9. [hackernews] (12.4h old) Renting a sewing machine from the library
-10. [hackernews] (10.4h old) When I reject AI code even if it works
-11. [hackernews] (4.9h old) Windows UI evolution: Clicking an unassociated file
-12. [hackernews] (13.0h old) Slow breathing modulates brain function and risk behavior
-13. [hackernews] (31.7h old) Where to Find the Colors Your Screen Can't Show You
-14. [hackernews] (12.7h old) Pre-2022 Books
-15. [rss:theverge] (0.3h old) Sony’s Xperia 1 VIII is still a phone for the fans
-   summary: The Xperia 1 VIII marks an attempt at a step change for Sony's flagship phone line. Not only has it had an aesthetic overhaul, but Sony has also revamped the camera system, dropping the continuous optical zoom telephoto that's defined the last four generations of Xperia phone. It's not all differ...
-16. [hackernews] (12.5h old) Turns Out, There Is a Cabal of Elite Crazies Trying to Control the World
-17. [hackernews] (12.2h old) Epoll vs. io_uring in Linux
-18. [hackernews] (14.3h old) Linux eliminates the strncpy API after six years of work, 360 patches
-   also seen in: rss:openai_blog
-19. [hackernews] (18.3h old) SMPTE Makes Its Standards Freely Accessible
-20. [rss:arstechnica] (1.3h old) Review: Widow's Bay is a boldly original take on comedic horror
-   summary: An eminently binge-able series that honors classic horror tropes while reinventing them in surprising ways
+1. [hackernews] (8.1h old) Deno Desktop
+2. [hackernews] (0.4h old) WhatsApp's "End-to-End Encryption" Is the Biggest Lie in Tech History
+3. [hackernews] (1.0h old) window.showDirectoryPicker opens up a whole new world
+4. [hackernews] (1.1h old) Becoming a dad changes men's brains
+5. [hackernews] (16.0h old) Did my old job only exist because of fraud?
+6. [hackernews] (1.6h old) Why Drawing Tablet Brands Won't Collaborate on Linux Floss Drivers
+7. [hackernews] (25.0h old) Identity verification on Claude
+   also seen in: googlenews
+8. [hackernews] (2.3h old) Alan Greenspan Dies at 100; Led Fed During Boom Before 2008 Bust
+9. [hackernews] (6.4h old) GLM 5.2 vs. Opus
+10. [hackernews] (6.2h old) Codex logging bug may write TBs to local SSDs
+11. [hackernews] (8.9h old) Danish privacy activist Lars Andersen raided by police
+12. [hackernews] (3.1h old) Manticore Search 27.1.5: Auth, sharding, conversational and faster vector search
+13. [hackernews] (16.2h old) Apertus – Open Foundation Model for Sovereign AI
+14. [hackernews] (6.2h old) Investors get real-time view of UK bond market activity for the first time
+15. [rss:techcrunch] (0.0h old) Lucid Motors’ new CEO cuts 18% of staff to ‘simplify the company’
+   summary: The company is also eliminating a production shift at its Arizona factory to align "production plans with anticipated demand."
+16. [rss:techcrunch] (0.1h old) Seedcamp raises $320M for its new fund to expand its US footprint
+   summary: After 18 years of focusing on Europe, early-stage investor Seedcamp said that it has raised $320 million for its latest fund which will see it expanding its presence in the United States.
+17. [rss:techcrunch] (0.1h old) Klue hack results in data breach at several cybersecurity firms
+   summary: Huntress, HackerOne, Jamf, Recorded Future, and Tanium are among the cybersecurity companies that had data stolen following an earlier breach at market research firm Klue.
+18. [rss:theverge] (0.7h old) Wyze’s new smart scale can break down your body composition for less than $80
+   summary: Seven months after introducing its $119.98 Ultra BodyScan smart scale, Wyze announced a cheaper $79.98 alternative available today that makes a few compromises to shave $40 off the price. There's no Wi-Fi, but you can sync the BodyScan's measurements to Apple Health and Google Fit by connecting t...
+19. [hackernews] (21.6h old) Prefer duplication over the wrong abstraction (2016)
+20. [googlenews] (0.1h old) Micron rises on collab with Anthropic to develop and supply AI memory and storage infrastructure - Seeking Alpha
+   summary: <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxNeWFCaHlFQW0tTW9VTUVVN0hQS3JfSXMxNFA2N2tuelpzR1R4a08xYWJ5b0Zhc3UxcDdheWZOeHlwQW52UXdGamlHcU5fTU91MG9ibmhsVEdCZzhMU0RpSGhLN2xkWUNxUlpaUWs2M214YV9EQUt2WEI3V0ZZdUVWV21TSmJ5Wjgyak1pU21wSUszS2ttS2daXy1VMmNzamJLcHVVcTF0S2ttTlVqSXFKcXE3REdYMzk...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
