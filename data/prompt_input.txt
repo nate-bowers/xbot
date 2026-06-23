@@ -109,32 +109,44 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (8.1h old) Deno Desktop
-2. [hackernews] (0.4h old) WhatsApp's "End-to-End Encryption" Is the Biggest Lie in Tech History
-3. [hackernews] (1.0h old) window.showDirectoryPicker opens up a whole new world
-4. [hackernews] (1.1h old) Becoming a dad changes men's brains
-5. [hackernews] (16.0h old) Did my old job only exist because of fraud?
-6. [hackernews] (1.6h old) Why Drawing Tablet Brands Won't Collaborate on Linux Floss Drivers
-7. [hackernews] (25.0h old) Identity verification on Claude
-   also seen in: googlenews
-8. [hackernews] (2.3h old) Alan Greenspan Dies at 100; Led Fed During Boom Before 2008 Bust
-9. [hackernews] (6.4h old) GLM 5.2 vs. Opus
-10. [hackernews] (6.2h old) Codex logging bug may write TBs to local SSDs
-11. [hackernews] (8.9h old) Danish privacy activist Lars Andersen raided by police
-12. [hackernews] (3.1h old) Manticore Search 27.1.5: Auth, sharding, conversational and faster vector search
-13. [hackernews] (16.2h old) Apertus – Open Foundation Model for Sovereign AI
-14. [hackernews] (6.2h old) Investors get real-time view of UK bond market activity for the first time
-15. [rss:techcrunch] (0.0h old) Lucid Motors’ new CEO cuts 18% of staff to ‘simplify the company’
-   summary: The company is also eliminating a production shift at its Arizona factory to align "production plans with anticipated demand."
-16. [rss:techcrunch] (0.1h old) Seedcamp raises $320M for its new fund to expand its US footprint
-   summary: After 18 years of focusing on Europe, early-stage investor Seedcamp said that it has raised $320 million for its latest fund which will see it expanding its presence in the United States.
-17. [rss:techcrunch] (0.1h old) Klue hack results in data breach at several cybersecurity firms
-   summary: Huntress, HackerOne, Jamf, Recorded Future, and Tanium are among the cybersecurity companies that had data stolen following an earlier breach at market research firm Klue.
-18. [rss:theverge] (0.7h old) Wyze’s new smart scale can break down your body composition for less than $80
-   summary: Seven months after introducing its $119.98 Ultra BodyScan smart scale, Wyze announced a cheaper $79.98 alternative available today that makes a few compromises to shave $40 off the price. There's no Wi-Fi, but you can sync the BodyScan's measurements to Apple Health and Google Fit by connecting t...
-19. [hackernews] (21.6h old) Prefer duplication over the wrong abstraction (2016)
-20. [googlenews] (0.1h old) Micron rises on collab with Anthropic to develop and supply AI memory and storage infrastructure - Seeking Alpha
-   summary: <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxNeWFCaHlFQW0tTW9VTUVVN0hQS3JfSXMxNFA2N2tuelpzR1R4a08xYWJ5b0Zhc3UxcDdheWZOeHlwQW52UXdGamlHcU5fTU91MG9ibmhsVEdCZzhMU0RpSGhLN2xkWUNxUlpaUWs2M214YV9EQUt2WEI3V0ZZdUVWV21TSmJ5Wjgyak1pU21wSUszS2ttS2daXy1VMmNzamJLcHVVcTF0S2ttTlVqSXFKcXE3REdYMzk...
+1. [hackernews] (18.2h old) Steam Machine launches today
+2. [hackernews] (1.3h old) Crypto in 2026: Oh, This Is the Bad Place
+3. [hackernews] (2.4h old) The Traditional Vi
+4. [arxiv] (17.4h old) AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection
+   summary: Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-based generation is cheap and scalable but cannot ...
+5. [arxiv] (17.4h old) Randomized YaRN Improves Length Generalization for Long-Context Reasoning
+   summary: Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length gener...
+6. [arxiv] (17.4h old) CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
+   summary: Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a le...
+7. [arxiv] (17.4h old) Semantic Browsing: Controllable Diversity for Image Generation
+   summary: Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interpretation. Existing methods to improve diversity produce outputs driven by incidental variations r...
+8. [arxiv] (17.4h old) AIR: Adaptive Interleaved Reasoning with Code in MLLMs
+   summary: Following the paradigm shift initiated by OpenAI o3, interleaved reasoning with code to enhance multimodal large language models (MLLMs) has become a pivotal research frontier. The existing literature focuses primarily on tool-use within vision-perception tasks. However, such approaches typically...
+9. [arxiv] (17.4h old) Open Problem: Is AdamW Effective Under Heavy-Tailed Noise?
+   summary: AdamW is the de facto optimizer for training large language models (LLMs), yet the theory behind it still lives mostly in finite-variance regimes. This is increasingly unsatisfying, as empirical evidence indicates that stochastic gradient noise in LLM pretraining is typically heavy-tailed. Recent...
+10. [arxiv] (17.4h old) PsyBridge: A Hybrid Intelligent Framework for Multi-Dimensional Mental Health Assessment and Decision Support
+   summary: Mental health assessment commonly relies on isolated screening instruments or data-driven models that often lack interpretability and multi-dimensional integration. Existing approaches frequently focus on individual indicators such as depression or anxiety while providing limited support for comp...
+11. [arxiv] (17.4h old) Teaching LLMs String Matching, Backtracking, and Error Recovery to Deduce Bases and Truth Tables for the Combinatorially Exploding Bit Manipulation Puzzles
+   summary: This paper presents our algorithmic innovations for the NVIDIA Nemotron Model Reasoning Challenge, focusing on Bit Manipulation Puzzles. In this task, the objective is to discover a hidden logical rule transforming input binary strings to outputs, then apply it to unseen inputs. Large Language Mo...
+12. [arxiv] (17.4h old) Can LLMs Reliably Self-Report Adversarial Prefills, and How?
+   summary: Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks. We extend the question to safety contexts and examine how reliably a model can recognize that its own prior response was elicited by an adversarial prefill attack. Across ten open-weight instructi...
+13. [arxiv] (17.4h old) Tapered Language Models
+   summary: Modern language models, including transformer, recurrent, and memory-based variants, share a common chassis: a stack of identical layers in which parameters are allocated uniformly across depth. This is a default inherited from the original transformer and largely unchanged since, yet a growing b...
+   also seen in: arxiv, googlenews, rss:deepmind_blog, rss:openai_blog
+14. [arxiv] (17.6h old) MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?
+   summary: Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation. System prompts thus form a critical and accessible optimizatio...
+15. [arxiv] (17.6h old) Action-BED: Task-Driven Bayesian Experimental Design with Singly Intractable Objectives
+   summary: Bayesian experimental design (BED) has traditionally been based on maximising expected uncertainty reductions from prior to posterior. A major shortfall of this approach is that it leads to doubly intractable objectives that are difficult to optimise, while customising them to particular downstre...
+16. [arxiv] (17.7h old) Dynamic estimation of slowly varying sequences
+   summary: We consider the problem of sequentially approximating functions of each element in a slowly-varying sequence, i.e. one where the magnitude $α_i$ of the difference between the elements at positions $i$ and $i-1$ is small. Recent work on implicit trace estimation shows that when $α_t$ is small, reu...
+17. [hackernews] (2.8h old) Show HN: Neural Particle Automata
+18. [arxiv] (17.7h old) EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions
+   summary: Enterprise agents increasingly operate inside workspaces: they read heterogeneous files, invoke tools, and deliver business artifacts. We introduce EnterpriseClawBench, an enterprise agent benchmark constructed from proprietary, real-world agent sessions. Starting from a large archive of workplac...
+19. [arxiv] (17.9h old) TailorMind: Towards Preference-Aligned Multimodal Content Generation
+   summary: Personalized content systems depend on available UGC and struggle when suitable content is absent, delayed, or costly to create. Although multimodal generators can synthesize content on demand, how to translate behavioral traces into generation-ready preferences remains underexplored. We study pe...
+20. [arxiv] (17.9h old) Learning Process Rewards via Success Visitation Matching for Efficient RL
+   summary: In many modern applications of reinforcement learning (RL), the natural reward for a task of interest is inherently sparse: a reward of 0 is given everywhere except when the task is completed, when a reward of +1 is given. Training a policy to maximize such a sparse reward requires solving a chal...
+   also seen in: rss:openai_blog
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
