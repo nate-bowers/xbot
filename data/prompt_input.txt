@@ -109,48 +109,42 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (19.1h old) An entire Herculaneum scroll has been read for the first time
-2. [hackernews] (14.4h old) Om Malik has died
-3. [arxiv] (16.9h old) DanceOPD: On-Policy Generative Field Distillation
+1. [hackernews] (0.9h old) DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]
+2. [hackernews] (15.8h old) U.S. government will decide who gets to use GPT-5.6
+   also seen in: googlenews, rss:openai_blog
+3. [hackernews] (17.1h old) Previewing GPT‑5.6 Sol: a next-generation model
+   also seen in: rss:openai_blog
+4. [hackernews] (5.7h old) OpenTTD 16.0-Beta1
+5. [hackernews] (37.7h old) Om Malik has died
+   also seen in: hackernews
+6. [hackernews] (4.9h old) IBM MCGA Gate Array Reverse Engineering
+7. [hackernews] (11.4h old) U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations
+   also seen in: googlenews, rss:theverge
+8. [hackernews] (6.7h old) WordStar: A Writer's Word Processor (1996)
+9. [hackernews] (36.5h old) The 'papers, please' era of the internet will decimate your privacy
+10. [hackernews] (7.5h old) Anatomy of a Failed (Nation-State?) Attack
+11. [hackernews] (13.0h old) We can still stop California's 3D printer surveillance scheme
+12. [googlenews] (0.2h old) Artificial intelligence discussed at Chamber lunch - The Courier Times
+   summary: <a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVWRGWVVET1dEVDg5d1UwUjgwSU50NUNNa3d1OG9UamdpcXIySGQ1TU1QMzVUT2o2UGFfVlZHcWJZbERlenBXMTNmZjc2M0lKZWlfalNxUFg0Z2tZUGdZdHNuMzBQakUydW05T1BBaU5YVmNhNk9BcVBlTlBRWmt2ZXg3eHlJSXIxZS1oMFRFSDRqbDJBUUNuN0twSkdSQ1VWSXFqMzNxRXJYcHJ2ak9MLVdHQU1oclR...
+13. [googlenews] (0.3h old) Australian rescue team uses AI-powered drone to find lost hikers – video - The Guardian
+   summary: <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0o2ZER3UC13TnQtY1VqN2dPakhtSnV5TnlzdjRUOFVvUDZPVEhDVEtlRXdSYUtxY0c1QUJIemZSbDRyNkljdFhfZXI5djVZdGdPVy1OVkoyY19JUGxxZ2dCUnE3cERTX29UekFqOWtzTVUwb3BWMDlDMG9EVm9vb0M2a1NBd0NoVFdMWUN1T19JMFd0elVZUkhRLW1lQzhPUGl4bW1tcF9Id2wyMzhMM3pJUUNmb2x...
+   also seen in: rss:openai_blog
+14. [googlenews] (0.5h old) Anthropic gets US approval to bring back Claude Mythos 5 - the-decoder.com
+   summary: <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVNva3JVLVJPWGF2bFhNZDZPM3pCRk9mTHNXUW5uemQ4ODUxRDc2T0d3QnZXbXdTNGQ3Q2p0UHplZkRSNVhtNENXZEx4VTQwenZTQ0xRa25aOXZrMXFoMFplTmVUYnVLWnRyUWVqT2xncXlZWEwyWXRyNFRkUUdBeDdndzY3em9B?oc=5" target="_blank">Anthropic gets US approval to bring back...
+15. [googlenews] (0.5h old) Chandigarh University researchers use Artificial Intelligence to develop Model for predicting Accurate Crop Yield; Innovation to benefit Indian Farmers - Yahoo Finance
+   summary: <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVBqc3Fxd2ZfRlNBWl80ZTRnUWlJVHRmcXBuMzlVT0xuekI4WUNmZWF2T2s4eHg2NktmbnJ5VDZNMmRzcE9WWVZOaGNhNDdnZ0o5ejdkcl9veWc2eWhaeUVMdHlPTHRqNkYzT1c3anBCZVZzN1VxQjE2Sl9tbkowT2ZhRGxac1pNMGxTNFFJbEd5WF9EYXdnajJORGwzUVdoaWg0WUNWMVRQYmtaVmxBZjF3MjJyaG0...
+16. [arxiv] (40.2h old) DanceOPD: On-Policy Generative Field Distillation
    summary: Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and...
    also seen in: rss:openai_blog
-4. [arxiv] (16.9h old) Reinforcement Learning without Ground-Truth Solutions can Improve LLMs
+17. [arxiv] (40.2h old) Reinforcement Learning without Ground-Truth Solutions can Improve LLMs
    summary: Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \textbf{R}anking-\textbf{i}nduced \textbf{VER}ifiable framework (RiVER...
    also seen in: rss:openai_blog
-5. [arxiv] (17.0h old) Autoregressive Boltzmann Generators
+18. [arxiv] (40.3h old) Autoregressive Boltzmann Generators
    summary: Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact...
-6. [arxiv] (17.0h old) When are likely answers right? On Sequence Probability and Correctness in LLMs
+19. [arxiv] (40.3h old) When are likely answers right? On Sequence Probability and Correctness in LLMs
    summary: Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence p...
-7. [arxiv] (17.0h old) Error-Conditioned Neural Solvers
+20. [arxiv] (40.3h old) Error-Conditioned Neural Solvers
    summary: Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods p...
-8. [arxiv] (17.1h old) Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline
-   summary: Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing these complex, informal, and adversarial ties at scale has historically required intensive manual cod...
-9. [arxiv] (17.1h old) Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching
-   summary: Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work has incorporated domain information and low-resource learning techniques to better adapt EM syste...
-10. [arxiv] (17.2h old) Language-Based Digital Twins for Elderly Cognitive Assistance
-   summary: Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive Impairment (MCI) remains challenging, where language and conversational patterns serve as non-in...
-11. [arxiv] (17.2h old) Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning
-   summary: Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLLMs are cost efficient and privacy preserving compared with commercial large models, they suffer f...
-   also seen in: rss:openai_blog
-12. [arxiv] (17.3h old) Hallucination in World Models is Predictable and Preventable
-   summary: Modern generative world models render increasingly realistic action-controllable futures, yet they frequently hallucinate: rollouts remain visually fluent while drifting from the ground-truth dynamics. We hypothesize that hallucination concentrates in low-coverage regions of the state-action spac...
-13. [arxiv] (17.3h old) Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders
-   summary: Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more monosemantic features. The Top-$k$ SAE, a now-standard variant, enforces sparsity architecturally th...
-14. [arxiv] (17.4h old) LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank
-   summary: Verifying the eligibility of securities as collateral is a key responsibility of the German Central Bank. However, manually verifying these assets against legal and financial criteria within lengthy, semi-structured, and often bilingual prospectuses is a resource-intensive task. While previous ef...
-15. [arxiv] (17.4h old) Blackwell Approachability and Gradient Equilibrium are Equivalent
-   summary: Gradient equilibrium (GEQ) is a recently introduced online optimization framework that generalizes first-order stationarity from offline optimization and abstracts problems like online conformal prediction. While GEQ has curious similarities with known online learning frameworks, namely regret mi...
-16. [arxiv] (17.4h old) Beyond Surface Forms: A Comprehensive, Mechanism-Oriented Taxonomy of Indirect Linguistic Encoding for LLM-Based Coded Language Detection
-   summary: To avoid moderation and surveillance on social media, some users routinely invent indirect linguistic expressions (ILE) that camouflage sensitive meanings. Such expressions surface as algospeak, euphemisms, and adversarial obfuscation, depending on intent and context, and they involve recurring e...
-17. [arxiv] (17.5h old) Multilingual Reasoning Cascades Need More Context
-   summary: Translation cascades for reasoning translate the query from another language to English, reason in English, and translate the answer back to the original language. This is a competitive approach to multilingual reasoning, but structurally lossy, since each stage discards information later stages ...
-18. [arxiv] (17.5h old) A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets
-   summary: Guided wave-based structural health monitoring (GWSHM) with onboard transducers offers significant potential for the early diagnosis of damage in engineering structures. However, the practical deployment of deep learning models is often hindered by the limited availability of labelled experimenta...
-19. [arxiv] (17.5h old) AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns
-   summary: AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000 user reviews from 59 AI healthcare chatbot apps to explore how these systems function in everyda...
-   also seen in: rss:openai_blog
-20. [arxiv] (17.7h old) Fast algorithms for learning a Gaussian under halfspace truncation with optimal sample complexity
-   summary: We study the fundamental problem of learning a high-dimensional Gaussian truncated to an unknown halfspace. Lee, Mehrotra and Zampetakis (FOCS'24) recently obtained the first polynomial time algorithm for this problem, but their resulting sample and time complexity bounds are not optimal. Under n...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
