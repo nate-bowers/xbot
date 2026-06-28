@@ -109,42 +109,35 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (0.9h old) DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]
-2. [hackernews] (15.8h old) U.S. government will decide who gets to use GPT-5.6
+1. [hackernews] (20.0h old) Anonymous GitHub account mass-dropping undisclosed 0-days
+2. [hackernews] (7.4h old) Ford hired AI and sacked humans. It backfired badly
+3. [hackernews] (40.1h old) U.S. government will decide who gets to use GPT-5.6
    also seen in: googlenews, rss:openai_blog
-3. [hackernews] (17.1h old) Previewing GPT‑5.6 Sol: a next-generation model
+4. [hackernews] (8.1h old) Marfa Public Radio Puts You to Sleep
+5. [hackernews] (5.7h old) Bashblog – a single bash script to create blogs
+6. [hackernews] (6.0h old) Wayfinder Router: deterministic routing of queries between local and hosted LLM
+7. [hackernews] (9.1h old) The best response to AI slop and online noise is from Robin Williams
+8. [hackernews] (19.9h old) Zuckerberg's war on whistleblowers
+9. [hackernews] (8.6h old) Feds Killed Polestar and Spared Volvo
+10. [hackernews] (22.4h old) OpenRA
+11. [hackernews] (25.2h old) DSpark: Speculative decoding accelerates LLM inference [pdf]
+12. [hackernews] (9.2h old) Show HN: Decomp Academy – Learn to decompile GameCube games into matching C
+13. [hackernews] (9.7h old) AMD Strix Halo RDMA Cluster Setup Guide
+14. [googlenews] (0.4h old) Why AI models like Claude Fable and Mythos defy traditional export control frameworks - Bulletin of the Atomic Scientists
+   summary: <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNUE11SzZsM2UyY2xUQVpTRDNRcU5MeU8tVFRsZmh6eWY1V09vdHVyaDBwRmFpM0NzZVNnR1JXWElsaE82M05BUGNIYVljQVU4bkdCYXlTNl9MWExvX18wT05vQk56WEo0aGwyWnVTdkRPbEhxcmU5cmVCTkJaTDlIWWtCMFB4RXhhYUtIbG5jNThPYmppMkNLUkFqRkZHTXlMSzNmV0d2WEl2QzlDUUtBM05GeDNIUWp...
+15. [googlenews] (0.5h old) Anthropic’s Alibaba fight raises a trillion-dollar IPO question: How defensible is frontier AI? - Fortune
+   summary: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPb25faXRlLXJybEd4VGk2OVRSWnJjR1hYQkl5NzdPd2hlcnRtWXJJaDV0UVZhdTFBVVc4UTZrbjIxM3dpSlhYZ2JHbDRWMVRFSFpCNHE0TkZQaV95aVdVZWQ4YXdNME5Fc0plOHpNY29fYjQwZXNKcDE3QXd4ZkFiMHZXSnVTVzhra0FwQnVOdEVXamd4dHZYRERHWktBNXRuSlo1dnpB?oc=5" target="_blank">...
+16. [googlenews] (0.9h old) Would you take spiritual advice from a chatbot? These questions are landing in a reverend’s inbox - MassLive
+   summary: <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHVma0J4YWRlcU80Z01heURHYUxCckFTMEVNNGIxMEQya0FXVXZBYzUyLV90LUozcG5maU42QnpsVmMzNjlySlotX1RPdlZmMHRKel9LYXFTamRMMVhSRHEtSkllTDN3VXNqMzNURk5WekJSRGNZQkphOHpib3MxTXJtRWZhZzI4bG5ualNXNjJaUE5xR0ZmRVpEZ25fTUJxc1FaLWMtOGdaejdvQjJoNEtiMnV6OHN...
+17. [googlenews] (1.0h old) Anthropic’s Claude Paid Consumer Base Climbs 75% in 2026 - Technology Org
+   summary: <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOWTc0N090T0x0a3VaNmVoaEtsZXJuRjZxVEZ2UUhrNkMwMVBVN3FOblRvczZvZkhpTHlTc0h4TjAzSlREZWZsNGdNaTRabGU3M3Z3aTlYaW1iNmszVWhfTi1uRkg3TmtJc2lWajhSR3FaUV9Qbzd0ZjlfTVVqU3FwUm1oVXhmQXFaQmc?oc=5" target="_blank">Anthropic’s Claude Paid Consumer Base...
+18. [googlenews] (1.0h old) 5 big analyst AI moves: Micron price targets hiked, cautious on SpaceX valuation - Yahoo Finance
+   summary: <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ1FLbTJocUNNdDVWOTN6ZlpXVkIyTGxQTkFrMGZCM05lcTZoNTQ4cTIwamRfUlBidm45OWViWWZYNXBLUV9UdWRmZlgwMl9HLUlCRU5Vc3lpbXNOSFVxZWtlcng5UTl4dU1qTEx4WmhUS00tRldzU0dGSGtvVk5hMkVFNUtRQ1JCVmNzb1pBUQ?oc=5" target="_blank">5 big analyst AI moves: Micron...
+19. [googlenews] (1.3h old) The AI Talent Perk Money Can't Buy - Business Insider
+   summary: <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQdUdyUUdZa3NWUERPWlZSZUVhVnI2NlNpYWMtLWZlZDlkelpkT3htR2V0RFVhSWJoTDY0a2RuVXdXd2t6NkpELTVVZkdqMzBETElHSFlKRnJqV1FhZkFTZXlIeDVmLTdRRW54NzNLZ3lQOWZ4RDl3N2VZNmhzbkNTU1lvdnpEaUlFZmVWZVZfZjhVSmttVlQ5RVJOdDJxcFZ2RUE?oc=5" target="_blank">The A...
+20. [googlenews] (1.4h old) GPT-5.6: OpenAI’s latest AI model is also being restricted by the US government - trendingtopics.eu
+   summary: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQNzB5MEJTQk56eHJwSHhXRU5EbnR0ZnNKVTFPeS1uME9wYjBZNUdFUHplV1l5MU13MWlkaWNwXzNMLVNXcjU2Q1AtSlZXRHpBRk9Db3Bva2xBcDY3eDRBZnBlVGdfZ2dGSGRjamdXNHBpb0x5M0lrTEhfV2tITnU2UEZKb2tuWmtwLXhxSzBkVkhTMEM2SlMxSFRxMklON2F2dGRXc09pTngtUE5l?oc=5" target="...
    also seen in: rss:openai_blog
-4. [hackernews] (5.7h old) OpenTTD 16.0-Beta1
-5. [hackernews] (37.7h old) Om Malik has died
-   also seen in: hackernews
-6. [hackernews] (4.9h old) IBM MCGA Gate Array Reverse Engineering
-7. [hackernews] (11.4h old) U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations
-   also seen in: googlenews, rss:theverge
-8. [hackernews] (6.7h old) WordStar: A Writer's Word Processor (1996)
-9. [hackernews] (36.5h old) The 'papers, please' era of the internet will decimate your privacy
-10. [hackernews] (7.5h old) Anatomy of a Failed (Nation-State?) Attack
-11. [hackernews] (13.0h old) We can still stop California's 3D printer surveillance scheme
-12. [googlenews] (0.2h old) Artificial intelligence discussed at Chamber lunch - The Courier Times
-   summary: <a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVWRGWVVET1dEVDg5d1UwUjgwSU50NUNNa3d1OG9UamdpcXIySGQ1TU1QMzVUT2o2UGFfVlZHcWJZbERlenBXMTNmZjc2M0lKZWlfalNxUFg0Z2tZUGdZdHNuMzBQakUydW05T1BBaU5YVmNhNk9BcVBlTlBRWmt2ZXg3eHlJSXIxZS1oMFRFSDRqbDJBUUNuN0twSkdSQ1VWSXFqMzNxRXJYcHJ2ak9MLVdHQU1oclR...
-13. [googlenews] (0.3h old) Australian rescue team uses AI-powered drone to find lost hikers – video - The Guardian
-   summary: <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0o2ZER3UC13TnQtY1VqN2dPakhtSnV5TnlzdjRUOFVvUDZPVEhDVEtlRXdSYUtxY0c1QUJIemZSbDRyNkljdFhfZXI5djVZdGdPVy1OVkoyY19JUGxxZ2dCUnE3cERTX29UekFqOWtzTVUwb3BWMDlDMG9EVm9vb0M2a1NBd0NoVFdMWUN1T19JMFd0elVZUkhRLW1lQzhPUGl4bW1tcF9Id2wyMzhMM3pJUUNmb2x...
-   also seen in: rss:openai_blog
-14. [googlenews] (0.5h old) Anthropic gets US approval to bring back Claude Mythos 5 - the-decoder.com
-   summary: <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVNva3JVLVJPWGF2bFhNZDZPM3pCRk9mTHNXUW5uemQ4ODUxRDc2T0d3QnZXbXdTNGQ3Q2p0UHplZkRSNVhtNENXZEx4VTQwenZTQ0xRa25aOXZrMXFoMFplTmVUYnVLWnRyUWVqT2xncXlZWEwyWXRyNFRkUUdBeDdndzY3em9B?oc=5" target="_blank">Anthropic gets US approval to bring back...
-15. [googlenews] (0.5h old) Chandigarh University researchers use Artificial Intelligence to develop Model for predicting Accurate Crop Yield; Innovation to benefit Indian Farmers - Yahoo Finance
-   summary: <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVBqc3Fxd2ZfRlNBWl80ZTRnUWlJVHRmcXBuMzlVT0xuekI4WUNmZWF2T2s4eHg2NktmbnJ5VDZNMmRzcE9WWVZOaGNhNDdnZ0o5ejdkcl9veWc2eWhaeUVMdHlPTHRqNkYzT1c3anBCZVZzN1VxQjE2Sl9tbkowT2ZhRGxac1pNMGxTNFFJbEd5WF9EYXdnajJORGwzUVdoaWg0WUNWMVRQYmtaVmxBZjF3MjJyaG0...
-16. [arxiv] (40.2h old) DanceOPD: On-Policy Generative Field Distillation
-   summary: Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and...
-   also seen in: rss:openai_blog
-17. [arxiv] (40.2h old) Reinforcement Learning without Ground-Truth Solutions can Improve LLMs
-   summary: Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \textbf{R}anking-\textbf{i}nduced \textbf{VER}ifiable framework (RiVER...
-   also seen in: rss:openai_blog
-18. [arxiv] (40.3h old) Autoregressive Boltzmann Generators
-   summary: Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact...
-19. [arxiv] (40.3h old) When are likely answers right? On Sequence Probability and Correctness in LLMs
-   summary: Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence p...
-20. [arxiv] (40.3h old) Error-Conditioned Neural Solvers
-   summary: Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods p...
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
