@@ -109,35 +109,40 @@ APPROVED HANDLES (use sparingly; only when reacting to something they did)
 - @VitalikButerin — Vitalik Buterin (Ethereum co-founder)
 
 Stories:
-1. [hackernews] (20.0h old) Anonymous GitHub account mass-dropping undisclosed 0-days
-2. [hackernews] (7.4h old) Ford hired AI and sacked humans. It backfired badly
-3. [hackernews] (40.1h old) U.S. government will decide who gets to use GPT-5.6
+1. [hackernews] (3.2h old) Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped
+2. [hackernews] (8.9h old) Age verification is just a precursor to automated attribution of speech
+3. [hackernews] (18.8h old) GLM 5.2 beats Claude in our benchmarks
+4. [hackernews] (10.9h old) HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88
+5. [hackernews] (3.7h old) Why did this journal retract two 1940s papers by Max Planck?
+   also seen in: rss:arstechnica
+6. [hackernews] (2.3h old) Sandia National Labs SA3000 8085 CPU
+7. [hackernews] (22.0h old) EU to legislate about Chat Control behind closed doors
+8. [rss:theverge] (0.6h old) How to end a TV show
+   summary: Ending any story is hard, but that's especially true of mystery-packed TV shows. Series like Lost initially hook viewers with constantly building secrets and questions, to the point that they can often seem incomprehensible. But the promise is that it will all pay off in the end - a feat that few...
+9. [rss:theverge] (1.2h old) Comcast is splitting in two
+   summary: Comcast has announced plans to separate itself into two publicly traded companies, spinning off its NBCUniversal and Sky broadcasting arms. The shake up aims to protect the media conglomerate's profitable broadband and wireless brand, which will retain the "Comcast" company name, as its media and...
+10. [hackernews] (8.2h old) Herdr: Agent multiplexer that lives in your terminal
+11. [rss:theverge] (1.6h old) The war against &#8216;woke&#8217; could end US science as we know it
+   summary: A sneaky rule change has the potential to blow up scientific research in the United States. But there's still time to fight it. On May 29th, the Office of Management and Budget (OMB) issued a 412-page proposal to revise federal financial assistance. The language is a combination of distinctly Tru...
+12. [rss:arstechnica] (2.1h old) NASA's X-59 "frankenjet" tests supersonic flight without the sonic boom
+   summary: NASA’s quiet supersonic flight tests could eventually go on a national tour.
+13. [googlenews] (0.1h old) Booz Allen Hamilton partners with OpenAI on AI deployment - Investing.com
+   summary: <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFZEOHliRFotSHF5YU42SjJpc3FWY1k1UVBmWUstU29BUF94YUM2U240Z1dHbjMzeFYzd3RIajRpMW53ZXBaZGZWaEJyODM4dHQ1bHZSWnF6amJkbFhqaDhKa3FxX0NNc1NTYTFlVDE3ckNhX1k5aWxTYmw0X3ZqeElodkU5Mm5HbldpNnhKNXBoaXN6WWtaN0dBejZ6a2t2S052RnFjQmlEcEtBLVRDMnE3NWo?oc=...
+   also seen in: googlenews
+14. [hackernews] (17.8h old) Librepods: AirPods liberated
+15. [googlenews] (0.2h old) Artificial intelligence buildout is driving prices higher for US consumers - Baltimore Sun
+   summary: <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGZsaHJ1UnVOcW5Yc0R5LWo4NWlPaklVbGo5VnRpTkJDd25XcklJX1pJQTdBcUl6d0RyazFzdlkyRXR1ZE5JdnFfaDNUS2xBVDU0Yy03VGVNRWFueGM3cUkxWU1qN1c2bEsxR3duT1M3U211SFE5WVFxRFB4dE5sRG44MVFQSzVfRmlMakxTLW5lMFQ5N0FYbm9VSXJCeWdHOWNMT2p4c1ZRd2JkVlRUQVF0azVldw?...
+16. [hackernews] (20.1h old) I used Claude Code to get a second opinion on my MRI
+17. [googlenews] (0.3h old) HP partners with OpenAI Frontier for enterprise AI deployment - Yahoo Finance
+   summary: <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUVZSWduUkdyZ05aaS1SNGZiejdiaURodVZQLXRnTWp5Y1dMenZBajl5dWZlaW9UeEhGMEVDNmJwTlhGTDVjQWVoRUtYU2RqMnB0ckVwaVhzVDY1Yy1jNkRLZ1h2MmZKekctSVhHTHpFSFh2dW9MSmZ4Y05oZGdKNmVUNzZCNEJ1UU1zcTBwSGdZU0tFSUNPbTRuMTdEVkJQNzRPZw?oc=5" target="_blank">HP...
    also seen in: googlenews, rss:openai_blog
-4. [hackernews] (8.1h old) Marfa Public Radio Puts You to Sleep
-5. [hackernews] (5.7h old) Bashblog – a single bash script to create blogs
-6. [hackernews] (6.0h old) Wayfinder Router: deterministic routing of queries between local and hosted LLM
-7. [hackernews] (9.1h old) The best response to AI slop and online noise is from Robin Williams
-8. [hackernews] (19.9h old) Zuckerberg's war on whistleblowers
-9. [hackernews] (8.6h old) Feds Killed Polestar and Spared Volvo
-10. [hackernews] (22.4h old) OpenRA
-11. [hackernews] (25.2h old) DSpark: Speculative decoding accelerates LLM inference [pdf]
-12. [hackernews] (9.2h old) Show HN: Decomp Academy – Learn to decompile GameCube games into matching C
-13. [hackernews] (9.7h old) AMD Strix Halo RDMA Cluster Setup Guide
-14. [googlenews] (0.4h old) Why AI models like Claude Fable and Mythos defy traditional export control frameworks - Bulletin of the Atomic Scientists
-   summary: <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNUE11SzZsM2UyY2xUQVpTRDNRcU5MeU8tVFRsZmh6eWY1V09vdHVyaDBwRmFpM0NzZVNnR1JXWElsaE82M05BUGNIYVljQVU4bkdCYXlTNl9MWExvX18wT05vQk56WEo0aGwyWnVTdkRPbEhxcmU5cmVCTkJaTDlIWWtCMFB4RXhhYUtIbG5jNThPYmppMkNLUkFqRkZHTXlMSzNmV0d2WEl2QzlDUUtBM05GeDNIUWp...
-15. [googlenews] (0.5h old) Anthropic’s Alibaba fight raises a trillion-dollar IPO question: How defensible is frontier AI? - Fortune
-   summary: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPb25faXRlLXJybEd4VGk2OVRSWnJjR1hYQkl5NzdPd2hlcnRtWXJJaDV0UVZhdTFBVVc4UTZrbjIxM3dpSlhYZ2JHbDRWMVRFSFpCNHE0TkZQaV95aVdVZWQ4YXdNME5Fc0plOHpNY29fYjQwZXNKcDE3QXd4ZkFiMHZXSnVTVzhra0FwQnVOdEVXamd4dHZYRERHWktBNXRuSlo1dnpB?oc=5" target="_blank">...
-16. [googlenews] (0.9h old) Would you take spiritual advice from a chatbot? These questions are landing in a reverend’s inbox - MassLive
-   summary: <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHVma0J4YWRlcU80Z01heURHYUxCckFTMEVNNGIxMEQya0FXVXZBYzUyLV90LUozcG5maU42QnpsVmMzNjlySlotX1RPdlZmMHRKel9LYXFTamRMMVhSRHEtSkllTDN3VXNqMzNURk5WekJSRGNZQkphOHpib3MxTXJtRWZhZzI4bG5ualNXNjJaUE5xR0ZmRVpEZ25fTUJxc1FaLWMtOGdaejdvQjJoNEtiMnV6OHN...
-17. [googlenews] (1.0h old) Anthropic’s Claude Paid Consumer Base Climbs 75% in 2026 - Technology Org
-   summary: <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOWTc0N090T0x0a3VaNmVoaEtsZXJuRjZxVEZ2UUhrNkMwMVBVN3FOblRvczZvZkhpTHlTc0h4TjAzSlREZWZsNGdNaTRabGU3M3Z3aTlYaW1iNmszVWhfTi1uRkg3TmtJc2lWajhSR3FaUV9Qbzd0ZjlfTVVqU3FwUm1oVXhmQXFaQmc?oc=5" target="_blank">Anthropic’s Claude Paid Consumer Base...
-18. [googlenews] (1.0h old) 5 big analyst AI moves: Micron price targets hiked, cautious on SpaceX valuation - Yahoo Finance
-   summary: <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ1FLbTJocUNNdDVWOTN6ZlpXVkIyTGxQTkFrMGZCM05lcTZoNTQ4cTIwamRfUlBidm45OWViWWZYNXBLUV9UdWRmZlgwMl9HLUlCRU5Vc3lpbXNOSFVxZWtlcng5UTl4dU1qTEx4WmhUS00tRldzU0dGSGtvVk5hMkVFNUtRQ1JCVmNzb1pBUQ?oc=5" target="_blank">5 big analyst AI moves: Micron...
-19. [googlenews] (1.3h old) The AI Talent Perk Money Can't Buy - Business Insider
-   summary: <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQdUdyUUdZa3NWUERPWlZSZUVhVnI2NlNpYWMtLWZlZDlkelpkT3htR2V0RFVhSWJoTDY0a2RuVXdXd2t6NkpELTVVZkdqMzBETElHSFlKRnJqV1FhZkFTZXlIeDVmLTdRRW54NzNLZ3lQOWZ4RDl3N2VZNmhzbkNTU1lvdnpEaUlFZmVWZVZfZjhVSmttVlQ5RVJOdDJxcFZ2RUE?oc=5" target="_blank">The A...
-20. [googlenews] (1.4h old) GPT-5.6: OpenAI’s latest AI model is also being restricted by the US government - trendingtopics.eu
-   summary: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQNzB5MEJTQk56eHJwSHhXRU5EbnR0ZnNKVTFPeS1uME9wYjBZNUdFUHplV1l5MU13MWlkaWNwXzNMLVNXcjU2Q1AtSlZXRHpBRk9Db3Bva2xBcDY3eDRBZnBlVGdfZ2dGSGRjamdXNHBpb0x5M0lrTEhfV2tITnU2UEZKb2tuWmtwLXhxSzBkVkhTMEM2SlMxSFRxMklON2F2dGRXc09pTngtUE5l?oc=5" target="...
-   also seen in: rss:openai_blog
+18. [googlenews] (0.4h old) Anthropic restores access to Mythos 5 for select organizations - thestreet.com
+   summary: <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS19IZzliZGt3OVdwM0RlYmdLcUVwRExNYmhCeFAzVUFRSDVVcVhGQzZiUlB3aUthMmJVLWVNZGZLYzkyTVVYRXFUQ2Y4VmNmUE42RlZmbzNDOGRvaENHWXg5SEtBOVZjWGhEM3JWM1l3U1lLblM2WVMyLTlqVFVfRDVlUV9pck1lTHlJOTRreV90UXUwT1JFY3IxWlZkMkt3c2lTbmk4cFE?oc=5" target="_blan...
+   also seen in: googlenews
+19. [googlenews] (0.4h old) Booz Allen partners with OpenAI to enhance AI solutions for US national security - Crypto Briefing
+   summary: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBUcW94NFc3TnJ6U3NPUmFkN3l6d2ZiMWJIR2x5OU9JWnF2dTJBVnI3YUM0RWNLaW1CTmd2RkRjUzB2aGh0Y0J0NElxYlF2VGJzMDBPdTFKN0hQWWhHaFFnZWNfNm5kdm9pTm9faVZhVkkzVVJq?oc=5" target="_blank">Booz Allen partners with OpenAI to enhance AI solutions for US natio...
+20. [googlenews] (0.4h old) AI tool measures ‘heart age’ - KOLD
+   summary: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFB2YngtaHI3VW9XR2tMYkcwajFLenNYSDVEcTd6Q2c5RUlwS2hqY1BjWVZ3NXNtYXZVWTcwVlhGZS0zZERsNGlweWszY3VXVEo3a2VFOU1paE42bGw0WkxRcXdlT2Z4OW9YSEk4?oc=5" target="_blank">AI tool measures ‘heart age’</a>&nbsp;&nbsp;<font color="#6f6f6f">KOLD</font>
 
 Return ONLY valid JSON, no preamble, no markdown fences:
 {"tweets": [{"text": "...", "based_on": "<story title>", "format": "<which format>"}, ... x4]}
